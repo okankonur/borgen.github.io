@@ -1,7 +1,8 @@
 baseURL: "https://okankonur.com/"
-title: Okan's
+title: "Okan's"
 paginate: 5
-theme: PaperMod
+theme: "PaperMod"
+publishDir: "docs"
 
 enableRobotsTXT: true
 buildDrafts: false
