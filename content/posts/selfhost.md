@@ -5,8 +5,11 @@ draft: true
 ---
 
 ## Table of Contents
-1. [Why](#Why)
-2. [How](#How)
+- [Table of Contents](#table-of-contents)
+  - [Why](#why)
+  - [How](#how)
+    - [Booting Up Raspberry PI](#booting-up-raspberry-pi)
+    - [We need to CONTAIN them!](#we-need-to-contain-them)
 
 
 
@@ -27,11 +30,45 @@ For example you can set up an intermediary dns server and block ads on all of th
 
 ### How
 
-First thing to get is an old pc which is lying around. Or better, a raspberry pi... or better, a rpi cluster!. 
+First thing to get is an old pc which is lying around. Or better, a raspberry pi... or better, a rpi cluster!
 
 Raspberry PI is the most efficient way to go in my opinion.
 It is:
 - cheap 
 - tiny (you can stick it to your wall)
 - low power usage (consumes 1W on average - I have model 3b)
-- has everything you need
+- has everything you need to get started
+
+#### Booting Up Raspberry PI
+
+- First, flash an OS.
+  - Easiest and most compatible is the Raspberry Pi OS.
+  - I recommend 64-bit version because some docker images are only compatible with it.
+  - Find the list [here](https://www.raspberrypi.com/software/operating-systems/)
+  - I have the desktop version but you don't necessarily need it.
+  - Download and follow the instructions on the *Raspberry Pi Imager.*
+  - SSH and WiFi configuration step is important in the imager. We will connect with SSH.
+
+#### We need to CONTAIN them!
+
+If you are hosting more than one project with different infrastructures, docker saves the day. Best thing about these open source project developers are that they also release their docker images. You don't even need to build the image nowadays. Just downloading from the hub and slapping some parameters makes it ready to go.
+
+`sudo apt-get update && sudo apt-get upgrade`
+
+`curl -fsSL https://get.docker.com -o get-docker.sh`
+
+`sudo sh get-docker.sh`
+
+Now we are ready to download and run some projects which are built for self-hosting!
+
+My current running project list is:
+- **Portainer**: Manage your docker ecosystem with a web interface. This is a must imho.
+- **Watchtower**: Automatically update your docker images to the latest version from the hub.
+- **Bitwarden**: Best password manager out there. 
+- **Pihole**: DNS Ad-Blocker for your home network.
+- **My Side Projects**: 
+  - Custom Discord bot.
+  - Simple ethereum low gas price e-mail notifier. 
+
+
+Let's look into how we can set up most of them.
