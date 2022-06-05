@@ -1,7 +1,7 @@
 ---
 title: "Hosting Open Source Projects At Home"
 date: 2022-06-02T20:46:30+03:00
-draft: true
+draft: false
 ---
 
 ## Table of Contents
