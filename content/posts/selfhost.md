@@ -46,6 +46,8 @@ It is:
 - low power usage (consumes 1W on average - I have model 3b)
 - has everything you need to get started
 
+{{< figure align=center src="/pics/rpi-watt.png" caption="Power Usage With 6 Containers Running" >}}
+
 #### Booting Up Raspberry PI
 
 - First, flash an OS.
