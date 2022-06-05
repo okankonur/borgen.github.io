@@ -33,7 +33,7 @@ This brings us to the second reason. Where cloud may not be OK.
 Privacy. We all know that our data is already spilled out there. No matter how much you try, if you are benefiting from FAANG services, they own and sell your data. It may be an acceptable trade in exchange of the services they provide. I am OK with that. However, if you are not, self hosting is also for you.
 
 Thirdly, there are some projects that help you administer your internal home network. 
-For example you can set up an intermediary dns server and block ads on all of the devices connected to your WiFi without any browser extension or adblock installment. You can't easily do this with any of the cloud services.
+For example you can set up an intermediary DNS and block ads on all of the devices connected to your WiFi without any browser extension or adblock installment. You can't easily do this with any of the cloud services.
 
 ### How
 
