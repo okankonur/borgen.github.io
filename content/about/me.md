@@ -1,0 +1,1 @@
+Hi, I am a software developer based in Istanbul, Turkey. I like to surf the web and forget things.
