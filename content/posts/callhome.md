@@ -1,7 +1,7 @@
 ---
 title: "Calling Home"
 date: 2022-06-12T16:15:03+03:00
-draft: true
+draft: false
 ---
 
 ***Too Long, Didn't Read:*** I use a simple app to connect to my home network from anywhere in the world. 

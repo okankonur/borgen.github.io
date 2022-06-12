@@ -5,14 +5,24 @@
     <link>https://okankonur.com/posts/</link>
     <description>Recent content in Posts on Okan&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jun 2022 20:46:30 +0300</lastBuildDate><atom:link href="https://okankonur.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 16:15:03 +0300</lastBuildDate><atom:link href="https://okankonur.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calling Home</title>
+      <link>https://okankonur.com/posts/callhome/</link>
+      <pubDate>Sun, 12 Jun 2022 16:15:03 +0300</pubDate>
+      
+      <guid>https://okankonur.com/posts/callhome/</guid>
+      <description>Too Long, Didn&amp;rsquo;t Read: I use a simple app to connect to my home network from anywhere in the world.
+As you buy little gadgets that connect to internet, you begin to realize the need, the need for spee&amp;hellip; ehm, no, the need for connecting to your home network. Nowadays your gadget also comes with its software which enables you to control it from a mobile app or their website or something so you don&amp;rsquo;t worry about anything.</description>
+    </item>
+    
     <item>
       <title>Hosting Open Source Projects At Home</title>
       <link>https://okankonur.com/posts/selfhost/</link>
       <pubDate>Thu, 02 Jun 2022 20:46:30 +0300</pubDate>
       
       <guid>https://okankonur.com/posts/selfhost/</guid>
-      <description>Table of Contents  Table of Contents  Why How  Booting Up Raspberry PI We need to CONTAIN them!   Projects to Host  Docker Management Interface Keeping Your System Up To Date Manage Your Passwords Block Ads Even Before They Reach Your Home Network Your Own Projects     What Now?  Why So, why would you ever need to host anything at home? We live in the age of cloud computing.</description>
+      <description>Table of Contents Table of Contents Why How Booting Up Raspberry PI We need to CONTAIN them! Projects to Host Docker Management Interface Keeping Your System Up To Date Manage Your Passwords Block Ads Even Before They Reach Your Home Network Your Own Projects What Now? Why So, why would you ever need to host anything at home? We live in the age of cloud computing. You can sign up with any mainstream provider and have all the functionality of the services we are going to talk about, without all the configuration hassle.</description>
     </item>
     
     <item>
