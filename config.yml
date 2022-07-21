@@ -79,11 +79,11 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/okan_konur"
+        # - name: stackoverflow
+        #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/okankonur"
 
   analytics:
     google:
