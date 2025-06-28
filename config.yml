@@ -1,4 +1,6 @@
-theme: hugo-tufte
+module:
+  imports:
+    - path: github.com/loikein/hugo-tufte
 languageCode: en-US
 hasCJKLanguage: true
 baseurl: "https://okankonur.com/"
