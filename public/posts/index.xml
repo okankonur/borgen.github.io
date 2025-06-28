@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Okan&#39;s</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://okankonur.com/posts/</link>
     <description>Recent content in Posts on Okan&#39;s</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 12 Jun 2022 16:15:03 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://okankonur.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Calling Home</title>
-      <link>http://localhost:1313/posts/callhome/</link>
+      <link>https://okankonur.com/posts/callhome/</link>
       <pubDate>Sun, 12 Jun 2022 16:15:03 +0300</pubDate>
-      <guid>http://localhost:1313/posts/callhome/</guid>
+      <guid>https://okankonur.com/posts/callhome/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Too Long, Didn&amp;rsquo;t Read:&lt;/strong&gt;&lt;/em&gt; I use a simple app to connect to my home network from anywhere in the world.&lt;/p&gt;&#xA;&lt;p&gt;As you buy little gadgets that connect to internet, you begin to realize the need, the need for &lt;em&gt;spee&amp;hellip;&lt;/em&gt; ehm, no, the need for connecting to your home network. Nowadays your gadget also comes with its software which enables you to control it from a mobile app or their website or something so you don&amp;rsquo;t worry about anything. But how does that work? How can you see what your device is doing at home? Isn&amp;rsquo;t it supposed to be a isolated network with firewalls to prevent strangers from accessing it?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosting Open Source Projects At Home</title>
-      <link>http://localhost:1313/posts/selfhost/</link>
+      <link>https://okankonur.com/posts/selfhost/</link>
       <pubDate>Thu, 02 Jun 2022 20:46:30 +0300</pubDate>
-      <guid>http://localhost:1313/posts/selfhost/</guid>
+      <guid>https://okankonur.com/posts/selfhost/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;&#xD;&#xA;Table of Contents&#xD;&#xA;&lt;a href=&#34;#table-of-contents&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of Contents&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#why&#34;&gt;Why&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#booting-up-raspberry-pi&#34;&gt;Booting Up Raspberry PI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#we-need-to-contain-them&#34;&gt;We need to CONTAIN them!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#projects-to-host&#34;&gt;Projects to Host&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#docker-management-interface&#34;&gt;Docker Management Interface&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#keeping-your-system-up-to-date&#34;&gt;Keeping Your System Up To Date&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#manage-your-passwords&#34;&gt;Manage Your Passwords&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#block-ads-even-before-they-reach-your-home-network&#34;&gt;Block Ads Even Before They Reach Your Home Network&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#your-own-projects&#34;&gt;Your Own Projects&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#what-now&#34;&gt;What Now?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why&#34;&gt;&#xD;&#xA;Why&#xD;&#xA;&lt;a href=&#34;#why&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;So, why would you ever need to host anything at home? We live in the age of cloud computing. You can sign up with any mainstream provider and have all the functionality of the services we are going to talk about, without all the configuration hassle.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
+      <link>https://okankonur.com/posts/test-post/</link>
       <pubDate>Sat, 26 Mar 2022 16:01:18 +0300</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
+      <guid>https://okankonur.com/posts/test-post/</guid>
       <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt;&#xD;&#xA;This is a test post.&#xD;&#xA;&lt;a href=&#34;#this-is-a-test-post&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p&gt;&#xA;&lt;p&gt;Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,&#xA;when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;&#xA;&lt;p&gt;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
     </item>
   </channel>

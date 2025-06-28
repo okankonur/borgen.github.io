@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Okan&#39;s</title>
-    <link>http://localhost:1313/about/</link>
+    <link>https://okankonur.com/about/</link>
     <description>Recent content in Abouts on Okan&#39;s</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://okankonur.com/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/about/me/</link>
+      <link>https://okankonur.com/about/me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/me/</guid>
+      <guid>https://okankonur.com/about/me/</guid>
       <description>&lt;p&gt;Hi, I am a software developer based in Istanbul, Turkey. I like to surf the web and forget things.&lt;/p&gt;</description>
     </item>
   </channel>

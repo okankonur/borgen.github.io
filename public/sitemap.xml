@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/callhome/</loc>
+    <loc>https://okankonur.com/posts/callhome/</loc>
     <lastmod>2022-06-12T16:15:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://okankonur.com/categories/</loc>
     <lastmod>2022-06-12T16:15:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/networking/</loc>
+    <loc>https://okankonur.com/categories/networking/</loc>
     <lastmod>2022-06-12T16:15:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://okankonur.com/</loc>
     <lastmod>2022-06-12T16:15:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://okankonur.com/posts/</loc>
     <lastmod>2022-06-12T16:15:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/selfhost/</loc>
+    <loc>https://okankonur.com/posts/selfhost/</loc>
     <lastmod>2022-06-02T20:46:30+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test-post/</loc>
+    <loc>https://okankonur.com/posts/test-post/</loc>
     <lastmod>2022-03-26T16:01:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/me/</loc>
+    <loc>https://okankonur.com/about/me/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://okankonur.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://okankonur.com/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://okankonur.com/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://okankonur.com/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://okankonur.com/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Okan&#39;s</title>
-    <link>http://localhost:1313/categories/networking/</link>
+    <link>https://okankonur.com/categories/networking/</link>
     <description>Recent content in Networking on Okan&#39;s</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 12 Jun 2022 16:15:03 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://okankonur.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Calling Home</title>
-      <link>http://localhost:1313/posts/callhome/</link>
+      <link>https://okankonur.com/posts/callhome/</link>
       <pubDate>Sun, 12 Jun 2022 16:15:03 +0300</pubDate>
-      <guid>http://localhost:1313/posts/callhome/</guid>
+      <guid>https://okankonur.com/posts/callhome/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Too Long, Didn&amp;rsquo;t Read:&lt;/strong&gt;&lt;/em&gt; I use a simple app to connect to my home network from anywhere in the world.&lt;/p&gt;&#xA;&lt;p&gt;As you buy little gadgets that connect to internet, you begin to realize the need, the need for &lt;em&gt;spee&amp;hellip;&lt;/em&gt; ehm, no, the need for connecting to your home network. Nowadays your gadget also comes with its software which enables you to control it from a mobile app or their website or something so you don&amp;rsquo;t worry about anything. But how does that work? How can you see what your device is doing at home? Isn&amp;rsquo;t it supposed to be a isolated network with firewalls to prevent strangers from accessing it?&lt;/p&gt;</description>
     </item>
   </channel>
