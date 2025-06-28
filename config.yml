@@ -60,3 +60,7 @@ menu:
       weight: -70
       identifier: github
       url: "https://github.com/okankonur/borgen.github.io"
+
+caches:
+  images:
+    dir: :cacheDir/images
