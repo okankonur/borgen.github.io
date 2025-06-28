@@ -38,7 +38,7 @@ jobs:
       - name: Install Hugo CLI
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.110.0'
           extended: true
       - name: Checkout
         uses: actions/checkout@v4
