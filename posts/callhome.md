@@ -1,6 +1,6 @@
 ---
 title: "Calling Home"
-date: "2022-06-12"
+date: 2022-06-12
 categories: ["Networking"]
 ---
 
@@ -10,7 +10,7 @@ As you buy little gadgets that connect to internet, you begin to realize the nee
 
 It is. Usually there is no way for anyone to send a request to your external IP and get a response. All the inbound ports of your home network is closed as default. Your router's default firewall should prevent this. No stranger can **start** a communication. However they can *respond* to a communication which is started by you. If the firewall hadn't been allowing these responses, you wouldn't have been reading this.
 
-![Equipment used by E.T. to call home](/pics/et-call-home.png){fig-align="center"}
+![Equipment used by E.T. to call home](/pics/et-call-home.png)
 
 That's why in the olden days, you needed to forward a port (meaning, to open it to external world). You see why this is insecure. Anyone that know or stumble upon your public IP can scan and send requests to your open port. If you run anything vulnerable behind that port, you are in trouble.
 
@@ -36,7 +36,7 @@ You may be asking "so you are going to just trust this?" I may be answering, you
 
 Do you really need this? If you have those apps I mentioned, the ones that come with the product you bought, you don't really *need* to set up something to connect home. They act as a control center between the actual home device and your client (mobile phone or pc). Both of these devices send requests to the centralized control center server and it relays the information. I don't think these services focus on the encryption side of things. Sure, the traffic may flow through SSL, however, some company personnel can configure your account so that next time your home device polls for some command to execute, it will execute a command you did not put there. There is no guarantee if there is no end-to-end encryption between you and the target device at home.
 
-On the other hand, if you are [self hosting](https://okankonur.com/posts/selfhost/) some projects from your home, that means you don't have any commercial middleware apps or servers for your custom projects. So you need to connect directly.
+On the other hand, if you are [self hosting](/posts/selfhost/) some projects from your home, that means you don't have any commercial middleware apps or servers for your custom projects. So you need to connect directly.
 
 ### OK but how does Tailscale differ?
 
@@ -53,6 +53,6 @@ Wireguard works with asymmetric encryption. It must have private-public key pair
 
 Tailscale assigns internal IPs for each device. If your local tailscale app is active, you can connect to these ip addresses and the traffic will be end-to-end encrypted. If any of these devices allows access to their UDP ports, connection will be peer-to-peer. If not, tailscale will use their relay servers.
 
-![Tailscale Internal IP List](/pics/tailscale-ip.png){fig-align="center"}
+![Tailscale Internal IP List](/pics/tailscale-ip.png)
 
 All in all, I am very satisfied with this setup and wanted to give my thanks to Tailscale by writing about it.

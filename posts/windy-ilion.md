@@ -1,21 +1,20 @@
 ---
 title: "Standing on Windy Ilion"
 subtitle: "How a dumb question about the Iliad turned into 3,200 years under my feet"
-date: "2026-07-22"
+date: 2026-07-22
 draft: true
 categories: ["History"]
-toc: true
 description: "It started with me not being able to tell the Iliad and the Odyssey apart. It ended with me realizing you can still stand on the walls of Troy, in the same wind Hector heard."
 ---
 
-::: {.epigraph}
+::: epigraph
 > …like the shrieking of cranes that flee the winter and its rain,
 > flying with clamour toward the streams of Ocean…
-
-[— Homer, *The Iliad*, Book 3]{.epigraph-source}
+>
+> <footer>— Homer, <cite>The Iliad</cite>, Book 3</footer>
 :::
 
-[It started with something embarrassing.]{.newthought} I could not, for the life of me, keep the *Iliad* and the *Odyssey* straight.[**İlyada** ve **Odysseia** — the two poems in Turkish.]{.column-margin lang="tr"} Pop culture has blended them into one big Trojan-War movie in my head, and I wanted the real version. So I started pulling a thread. This post is where the thread led — from two poems, to a real war, to a real hill in Çanakkale, to the strange and moving fact that the wind up there hasn't changed in three thousand years.
+[It started with something embarrassing.]{.newthought} I could not, for the life of me, keep the *Iliad* and the *Odyssey* straight.[**İlyada** ve **Odysseia** — the two poems in Turkish.]{.marginnote lang="tr"} Pop culture has blended them into one big Trojan-War movie in my head, and I wanted the real version. So I started pulling a thread. This post is where the thread led — from two poems, to a real war, to a real hill in Çanakkale, to the strange and moving fact that the wind up there hasn't changed in three thousand years.
 
 ## Which one is which
 
@@ -33,7 +32,7 @@ And the word itself? Yes — **"odyssey" comes straight from Odysseus.** In Gree
 
 Here's the part that reframed everything for me. The poems were written down around **750–700 BCE**. But the events they describe belong to the Late Bronze Age, around **1200 BCE**.
 
-That's a gap of four to five *centuries*. For almost half a millennium, the *Iliad* and the *Odyssey* didn't exist on paper at all — they lived entirely in people's mouths. Professional bards[*aoidoi* — the singers who carried the poems for generations before anyone wrote them down.]{.column-margin lang="tr"} memorized tens of thousands of lines and performed them live, using strict rhythmic meter and repeating stock phrases — "rosy-fingered Dawn," "the wine-dark sea" — as handholds for memory. Only later did the Greeks borrow the Phoenician alphabet and finally pin the poems to a page.
+That's a gap of four to five *centuries*. For almost half a millennium, the *Iliad* and the *Odyssey* didn't exist on paper at all — they lived entirely in people's mouths. Professional bards[*aoidoi* — the singers who carried the poems for generations before anyone wrote them down.]{.marginnote lang="tr"} memorized tens of thousands of lines and performed them live, using strict rhythmic meter and repeating stock phrases — "rosy-fingered Dawn," "the wine-dark sea" — as handholds for memory. Only later did the Greeks borrow the Phoenician alphabet and finally pin the poems to a page.
 
 Then those pages had to survive 2,700 years, which is its own quiet miracle:
 
@@ -50,7 +49,7 @@ So yes — these are the foundation of Western literature, the source of the rel
 
 For a long time people assumed Troy was pure fiction. It isn't.
 
-In the 1870s a treasure-hunting businessman named Heinrich Schliemann dug into a mound called **Hisarlık**[**Hisarlık** ("place of fortresses"), near **Çanakkale** in northwestern Turkey, guarding the **Çanakkale Boğazı** — the Dardanelles.]{.column-margin lang="tr"} in northwestern Turkey, near the Dardanelles, and hit a massive fortified city that had been built, destroyed, and rebuilt over and over for thousands of years. One layer in particular — the one archaeologists call **Troy VIIa** — shows every sign of a city that died violently around **1180 BCE**, right on schedule for the legend.
+In the 1870s a treasure-hunting businessman named Heinrich Schliemann dug into a mound called **Hisarlık**[**Hisarlık** ("place of fortresses"), near **Çanakkale** in northwestern Turkey, guarding the **Çanakkale Boğazı** — the Dardanelles.]{.marginnote lang="tr"} in northwestern Turkey, near the Dardanelles, and hit a massive fortified city that had been built, destroyed, and rebuilt over and over for thousands of years. One layer in particular — the one archaeologists call **Troy VIIa** — shows every sign of a city that died violently around **1180 BCE**, right on schedule for the legend.
 
 Even better, the Bronze Age Hittites left records. Their tablets mention a vassal city called *Wilusa* — the same word as the Greek *Ilios*, another name for Troy — and a people called the *Ahhiyawa*, which is almost certainly the *Achaeans*, i.e. the Greeks.^[One Hittite treaty even names a king of Troy as *Alaksandu* — strikingly close to *Alexandros*, the alternate name for Prince Paris in the *Iliad*.] The Trojans themselves weren't quite Hittites; they were **Luwians**, a western-Anatolian people, close cultural cousins in the same Indo-European family.
 
@@ -61,7 +60,7 @@ And the real war probably wasn't about a stolen queen at all. Troy sat at the mo
 I wanted to know *how* you can read all that out of dirt. When Carl Blegen carefully excavated Troy VIIa in the 1930s, he found a frozen snapshot of a city under siege:
 
 - **People crammed in.** The once-spacious homes had been hastily chopped into tiny rooms — a city swollen with refugees from the countryside.
-- **Food stockpiled.** Huge storage jars[*pithoi* — the giant clay jars, sunk into the floors so people could walk over them and save every inch of space.]{.column-margin lang="tr"} were sunk into the floors, flush with the ground, hoarding grain and oil for a long blockade.
+- **Food stockpiled.** Huge storage jars[*pithoi* — the giant clay jars, sunk into the floors so people could walk over them and save every inch of space.]{.marginnote lang="tr"} were sunk into the floors, flush with the ground, hoarding grain and oil for a long blockade.
 - **Ammunition ready.** Neat piles of rounded slingstones sat stacked by the defensive towers.
 - **The city burned.** A layer of ash and charcoal *five to six feet deep* covered the streets. The limestone and mudbrick were cracked and glassy from sustained, city-wide heat.
 - **People died where they fell.** Skeletons lay in the open streets and under collapsed doorways — one with a crushed skull, another with fractured legs — and Mycenaean-Greek bronze arrowheads were scattered through the ruins, embedded in the walls.
@@ -72,7 +71,7 @@ Overcrowding, stockpiled food, foreign weapons, unburied bodies, a city-wide bur
 
 Somewhere in this rabbit hole I had the thought that actually made it click for me. All these layers — a person who lived their whole life inside Troy VIIa would have experienced it as *stable*, permanent, the only world there is. Childhoods, meals, arguments, harvests, decades of ordinary life. And to us, now, that entire lifetime is compressed into a single thin band of ash a centimeter thick.
 
-An artificial mound like this — layer stacked on layer of human occupation — has a name.[A **tell**, or in Turkish a **höyük**: a "pancake stack" of cities, each built on the rubble of the last.]{.column-margin lang="tr"} At Hisarlık there are **nine** main cities, Troy I through Troy IX, stacked into more than four thousand sub-layers across three thousand years. Archaeologists tell them apart in a few ways I found genuinely clever:
+An artificial mound like this — layer stacked on layer of human occupation — has a name.[A **tell**, or in Turkish a **höyük**: a "pancake stack" of cities, each built on the rubble of the last.]{.marginnote lang="tr"} At Hisarlık there are **nine** main cities, Troy I through Troy IX, stacked into more than four thousand sub-layers across three thousand years. Archaeologists tell them apart in a few ways I found genuinely clever:
 
 - **Soil color and texture.** Dark charcoal and white ash mean fire. A yellowish clay slurry means mudbrick walls that melted in the rain after a house was abandoned. Reddish baked clay means a hearth or a kiln.
 - **Pottery style.** Pottery is the smartphone of archaeology — the styles changed every few generations. A particular painted Mycenaean jar can date a layer to a window of just a few decades.
@@ -89,7 +88,9 @@ In his rush to the bottom, he plowed *straight through* the actual Trojan War ci
 
 He was off by a thousand years. That gold belonged to **Troy II**, a city that had already burned down around 2200 BCE — ancient history *by the time the Trojan War was even fought.* In chasing Homer, he destroyed the real city of the war to uncover one that was already a ruin when Hector was alive.
 
+::: epigraph
 > Schliemann did more damage to the walls of Troy in three years than the entire Greek army managed in ten.
+:::
 
 The upside of his blunder: that "wrong" bottom layer revealed just how deep the story goes. Before the war-era city, five earlier Troys had already risen and fallen on that exact hill — from a modest Troy I fishing fortress around 3000 BCE, to the golden goldsmith-citadel of Troy II, through centuries of grinding, rebuild-on-the-ruins survival. King Priam and Hector, walking their streets around 1200 BCE, were standing on roughly *eighteen centuries* of their own ancestors. They kept rebuilding in the same spot for one very modern reason: location. Whoever held that hill held the ships waiting below.
 
@@ -97,7 +98,7 @@ The upside of his blunder: that "wrong" bottom layer revealed just how deep the 
 
 Which raises the obvious objection I had — the one that had been nagging me. If Troy controlled sea trade, **why does the ruin sit five or six kilometers inland today,** overlooking flat farmland?
 
-Because the coastline moved. Troy once sat on a deep saltwater bay, and over three thousand years two rivers[The **Karamenderes** (Homer's *Scamander*) and the **Dümrek** (his *Simois*), both born on **Kaz Dağı** — Mount Ida.]{.column-margin lang="tr"} filled that entire bay in with silt washed down from Mount Ida. Bay became marsh, marsh became dry plain, and the shoreline crept further and further out toward the Aegean, century by century.
+Because the coastline moved. Troy once sat on a deep saltwater bay, and over three thousand years two rivers[The **Karamenderes** (Homer's *Scamander*) and the **Dümrek** (his *Simois*), both born on **Kaz Dağı** — Mount Ida.]{.marginnote lang="tr"} filled that entire bay in with silt washed down from Mount Ida. Bay became marsh, marsh became dry plain, and the shoreline crept further and further out toward the Aegean, century by century.
 
 ```text
    c. 3000 BCE (Troy I–II)        c. 1200 BCE (Troy VI–VIIa)          Today (Hisarlık)
@@ -118,16 +119,16 @@ Here's where it stopped being trivia and started being something else.
 
 Empires vanish, languages die, cities collapse into ash you measure in centimeters. But the *physical world* around Troy is almost exactly what it was. Stand on that hill today and you get the same sensory experience the Trojans and the Greeks did.
 
-Homer calls it **"windy Ilion"**[The relentless northerly is the **poyraz**, funneling down the Dardanelles off the Black Sea — the same wind that trapped ancient ships in the bay below.]{.column-margin lang="tr"} over a dozen times, and it isn't just poetry. A hard north wind still funnels down the strait off the Black Sea all summer. That wind is literally *why Troy got rich* — sailing ships couldn't beat straight into it, so they dropped anchor in the bay and waited, for days, for weeks, and paid the Trojans for water, food, and harbor space while they did. Stand on the ramparts now and it whips your hair and howls in your ears in the same cadence Hector heard looking out at the Greek camp.
+Homer calls it **"windy Ilion"**[The relentless northerly is the **poyraz**, funneling down the Dardanelles off the Black Sea — the same wind that trapped ancient ships in the bay below.]{.marginnote lang="tr"} over a dozen times, and it isn't just poetry. A hard north wind still funnels down the strait off the Black Sea all summer. That wind is literally *why Troy got rich* — sailing ships couldn't beat straight into it, so they dropped anchor in the bay and waited, for days, for weeks, and paid the Trojans for water, food, and harbor space while they did. Stand on the ramparts now and it whips your hair and howls in your ears in the same cadence Hector heard looking out at the Greek camp.
 
 And it isn't only the wind:
 
 - **The smell.** Homer's "many-fountained Ida, mother of wild beasts" still bakes in the summer sun and fills the air with red pine, wild thyme, oregano, and sage. The streams still smell of wet limestone and plane trees.
 - **The birds.** In Book 3 Homer compares the roar of the Trojan army to "the shrieking of cranes." That coast is a major migratory flyway; every spring and autumn storks and cranes still pour across the sky above the ruins, exactly the spectacle ancient residents paused their work to watch.
 - **The food.** Flatbread baked on hot stones, olive oil, salted sheep's-milk cheese, figs, wild grapes, slow stews of chickpea and lentil and fava, red wine cut with water and herbs against the afternoon heat. You could set that table today.
-- **The light.** The island of Tenedos[**Bozcaada** — the island still sitting on the horizon at dusk, exactly where it was when Achilles could see it.]{.column-margin lang="tr"} still sits on the horizon; the sun still drops into the Aegean and throws the same long golden shadows across the limestone and the yellow summer grass that it did when Achilles sat outside his tent.
+- **The light.** The island of Tenedos[**Bozcaada** — the island still sitting on the horizon at dusk, exactly where it was when Achilles could see it.]{.marginnote lang="tr"} still sits on the horizon; the sun still drops into the Aegean and throws the same long golden shadows across the limestone and the yellow summer grass that it did when Achilles sat outside his tent.
 
-::: {.epigraph}
+::: epigraph
 > A mother afraid for a child going to war. A soldier aching for home.
 > Grief for a dead friend, and the plain joy of a warm meal after a long day.
 > None of it has changed at all. They were just people, on the same dirt.

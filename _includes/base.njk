@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title }}{% if title != site.title %} — {{ site.title }}{% endif %}</title>
+  {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/tufte.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/index.xml" />
+</head>
+<body>
+  <nav class="sitenav">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="https://github.com/okankonur/borgen.github.io">Source</a>
+  </nav>
+  {{ content | safe }}
+</body>
+</html>

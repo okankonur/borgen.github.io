@@ -1,24 +1,7 @@
 ---
 title: "Hosting Open Source Projects At Home"
-date: "2022-06-02"
+date: 2022-06-02
 ---
-
-## Table of Contents
-- [Table of Contents](#table-of-contents)
-  - [Why](#why)
-  - [How](#how)
-    - [Booting Up Raspberry PI](#booting-up-raspberry-pi)
-    - [We need to CONTAIN them!](#we-need-to-contain-them)
-  - [Projects to Host](#projects-to-host)
-    - [Docker Management Interface](#docker-management-interface)
-    - [Keeping Your System Up To Date](#keeping-your-system-up-to-date)
-    - [Manage Your Passwords](#manage-your-passwords)
-    - [Block Ads Even Before They Reach Your Home Network](#block-ads-even-before-they-reach-your-home-network)
-    - [Your Own Projects](#your-own-projects)
-- [What Now?](#what-now)
-
-
-
 
 ### Why
 
@@ -45,7 +28,7 @@ It is:
 - low power usage (consumes 1W on average - I have model 3b)
 - has everything you need to get started
 
-![Power Usage With 6 Containers Running](/pics/rpi-watt.png){fig-align="center"}
+![Power Usage With 6 Containers Running](/pics/rpi-watt.png)
 
 #### Booting Up Raspberry PI
 
@@ -100,10 +83,9 @@ This one is for ease of use. [Portainer](https://hub.docker.com/r/portainer/port
 
 I will typically use `--restart unless-stopped` for most of my containers. I don't want to manually start them if the server reboots or loses power for some reason.
 
-![Portainer Dashboard](/pics/portainer-dash.png){fig-align="center"}
+![Portainer Dashboard](/pics/portainer-dash.png)
 
-![Portainer Details](/pics/portainer-container.png){fig-align="center"}
-
+![Portainer Details](/pics/portainer-container.png)
 
 #### Keeping Your System Up To Date
 
@@ -111,12 +93,9 @@ If you are using cloud services, one thing you don't need to worry about is that
 
 [Watchtower](https://github.com/containrrr/watchtower) comes to the rescue. I love this project. It periodically checks if there is a newer version the docker hub and downloads and spins up a new instance for you. Then if you want, it emails you what it had done. I omitted the email parameters here, you can check the docs.
 
-
 `$ docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower:arm64v8-latest`
 
-
 *Note: If you have critical apps and want to opt-out from watchtower updates to avoid failures, you can put an extra parameter to your **target** docker run script like this: `--label=com.centurylinklabs.watchtower.enable=false`*
-
 
 #### Manage Your Passwords
 
@@ -133,7 +112,7 @@ I like that:
 - Works perfect on docker on pi.
 - It is easy to backup. (just back up the sqlite.db file)
 
-![Mmmhh... that password generator...](/pics/bitwarden-generator.png){fig-align="center"}
+![Mmmhh... that password generator...](/pics/bitwarden-generator.png)
 
 First things first, you can't set this one up from scratch with just one docker command. It MUST have an SSL certificate to work properly.
 So you have 2 options:
@@ -152,7 +131,6 @@ Assuming you are done with the certificate business and you have your certificat
 
 Renewing the certificate:
 
-
 `$ certbot certonly --manual -d *.okankonur.com`
 
 Copy the resulting pem files to target folders, for example `/ssl`:
@@ -169,7 +147,6 @@ You can now go to your instance through your subdomain URL and create an account
 
 If you have other passwords exported in a format like .csv or json you can import them to Bitwarden.
 
-
 #### Block Ads Even Before They Reach Your Home Network
 
 Meaning: blacklist the advertisement URLs with your custom internal DNS. How? [Pi-hole](https://pi-hole.net/).
@@ -180,9 +157,7 @@ Meaning: blacklist the advertisement URLs with your custom internal DNS. How? [P
 
 2. Then you need to go to your WiFi Router's interface and add a custom DNS IP, which will correspond to your pi which runs the pi-hole. You can find detailed tutorial online.
 
-
-![Pi-hole Dashboard](/pics/pihole-dash.png){fig-align="center"}
-
+![Pi-hole Dashboard](/pics/pihole-dash.png)
 
 #### Your Own Projects
 
@@ -193,11 +168,8 @@ Then a simple `$ docker load -i yourimg.tar` will load your container and you ar
 
 *Note: If you are using watchtower to update images from docker hub, you would want to add the watchtower exclude label (see [Keeping Your System Up To Date](#keeping-your-system-up-to-date)) to your docker run script.
 
-
 ## What Now?
 
 So you have set up a very basic and efficient home server with your raspberry pi. Everyone you know has ***almost*** the same functionality with cloud services or browser extensions,  was it worth the time you *wasted*?
 
-
 Yes.
-

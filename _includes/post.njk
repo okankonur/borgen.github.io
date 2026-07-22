@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  {% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+  <p class="post-meta">
+    {{ date | dateHuman }}
+    {% if categories %}&middot; {{ categories | join(", ") }}{% endif %}
+  </p>
+  <section>
+  {{ content | safe }}
+  </section>
+</article>
