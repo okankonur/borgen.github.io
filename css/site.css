@@ -46,22 +46,10 @@
   margin-left: 0.5em;
 }
 
-.category-tag {
-  display: inline-block;
-  font-size: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 0.1em 0.5em;
-  margin-right: 0.4em;
-}
-
 @media (prefers-color-scheme: dark) {
   .post-meta,
   .post-list-date,
   .lang-switch {
     color: #aaa;
-  }
-  .category-tag {
-    border-color: #444;
   }
 }
