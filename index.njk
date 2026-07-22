@@ -12,10 +12,9 @@ permalink: /index.html
     <li>
       {% set en = collections.postsAll | translationOf(post.data.resolvedRef, post.data.resolvedLang) %}
       <span class="post-title">
+        {% if en and en.data.resolvedLang == "en" %}<a class="lang-tag" href="{{ en.url }}" aria-label="Read in English" title="Read in English">EN</a>{% endif %}
         <a class="title-link title-default" href="{{ post.url }}">{{ post.data.title }}</a>
-        {% if en and en.data.resolvedLang == "en" %}
-        <a class="title-link title-alt" href="{{ en.url }}">{{ en.data.title }}</a><a class="lang-tag" href="{{ en.url }}" aria-label="Read in English" title="Read in English">EN</a>
-        {% endif %}
+        {% if en and en.data.resolvedLang == "en" %}<a class="title-link title-alt" href="{{ en.url }}">{{ en.data.title }}</a>{% endif %}
       </span>
       <span class="post-list-date">{{ post.date | dateHuman }}</span>
       {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
