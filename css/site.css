@@ -1,8 +1,8 @@
+/* The nav lives inside <body>, which already applies the Tufte inset
+   (width 87.5% + padding-left 12.5%), so it only needs top spacing here.
+   Re-adding width/side padding double-insets and overflows the viewport. */
 .sitenav {
-  width: 87.5%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 1.5rem 12.5% 0;
+  padding-top: 1.5rem;
   font-family: et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
@@ -32,18 +32,11 @@
 }
 
 /* Inline EN toggle on homepage titles: hover the tag to preview the English
-   title, click it to open the English page. Uses :has() for backward
-   sibling targeting — no JavaScript. */
+   title, click it to open the English page. The swap is driven by a small
+   script (see base.njk); without JS the Turkish title shows and the tag still
+   links through to the English page. */
 .post-title .title-alt {
   display: none;
-}
-
-.post-title:has(.lang-tag:hover) .title-default {
-  display: none;
-}
-
-.post-title:has(.lang-tag:hover) .title-alt {
-  display: inline;
 }
 
 .lang-tag {
