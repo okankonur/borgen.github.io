@@ -17,6 +17,54 @@
   color: #555;
 }
 
+.lang-switch {
+  font-style: italic;
+  color: #555;
+  margin-top: -0.75rem;
+}
+
+.lang-switch .lang-current {
+  font-weight: bold;
+}
+
+.lang-switch .lang-sep {
+  margin: 0 0.4em;
+}
+
+/* Inline EN toggle on homepage titles: hover the tag to preview the English
+   title, click it to open the English page. Uses :has() for backward
+   sibling targeting — no JavaScript. */
+.post-title .title-alt {
+  display: none;
+}
+
+.post-title:has(.lang-tag:hover) .title-default {
+  display: none;
+}
+
+.post-title:has(.lang-tag:hover) .title-alt {
+  display: inline;
+}
+
+.lang-tag {
+  font-size: 0.6rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  vertical-align: super;
+  margin-left: 0.3em;
+  padding: 0.05em 0.35em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #777;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lang-tag:hover {
+  color: #111;
+  border-color: #111;
+}
+
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -43,10 +91,19 @@
 
 @media (prefers-color-scheme: dark) {
   .post-meta,
-  .post-list-date {
+  .post-list-date,
+  .lang-switch {
     color: #aaa;
   }
   .category-tag {
     border-color: #444;
+  }
+  .lang-tag {
+    border-color: #444;
+    color: #999;
+  }
+  .lang-tag:hover {
+    color: #eee;
+    border-color: #eee;
   }
 }

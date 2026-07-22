@@ -8,6 +8,14 @@ layout: base.njk
     {{ date | dateHuman }}
     {% if categories %}&middot; {{ categories | join(", ") }}{% endif %}
   </p>
+  {% set other = collections.postsAll | translationOf(resolvedRef, resolvedLang) %}
+  {% if other %}
+  <p class="lang-switch">
+    <span class="lang-current">{{ resolvedLang | upper }}</span>
+    <span class="lang-sep">/</span>
+    <a href="{{ other.url }}">{{ other.data.resolvedLang | upper }}</a>
+  </p>
+  {% endif %}
   <section>
   {{ content | safe }}
   </section>

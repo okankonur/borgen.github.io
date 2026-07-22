@@ -1,9 +1,11 @@
 ---
-title: "Test Post"
+title: "Deneme Yazısı"
 date: 2022-03-26
+lang: tr
+ref: test-post
 ---
 
-## This is a test post.
+## Bu bir deneme yazısıdır.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
