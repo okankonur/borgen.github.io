@@ -6,3 +6,7 @@
 
 # Hugo resource cache
 /resources/_gen/
+
+/.quarto/
+**/*.quarto_ipynb
+/_site/

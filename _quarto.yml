@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+  resources:
+    - CNAME
+    - pics/
+
+website:
+  title: "Okan's"
+  description: "Hello, you've reached Okan's"
+  site-url: "https://okankonur.com"
+  favicon: favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/okankonur/borgen.github.io
+        aria-label: Source Code
+    search: true
+  # Optional: uncomment to show a "reader" font toggle etc.
+  # reader-mode: true
+
+format:
+  html:
+    theme:
+      - default
+      - styles/tufte.scss
+    toc: false
+    # Widen the right margin so sidenotes / margin figures have room.
+    grid:
+      margin-width: 350px
+    # Footnotes and citations render as Tufte sidenotes in the margin.
+    reference-location: margin
+    citation-location: margin
+    html-math-method: katex        # matches the old KaTeX setup
+    link-external-newwindow: true
+    code-copy: true

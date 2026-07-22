@@ -1,0 +1,13 @@
+---
+title: "Okan's"
+subtitle: "Hello, you've reached Okan's"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true            # generates /index.xml (RSS)
+  fields: [date, title, description, categories]
+page-layout: full
+title-block-banner: false
+---
