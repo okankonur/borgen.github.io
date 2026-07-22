@@ -1,4 +1,12 @@
 module:
+  # The loikein/hugo-tufte theme is unmaintained and targets the ~0.128 era.
+  # Hugo 0.146.0 reworked partial-name resolution (causes infinite template
+  # recursion -> build OOM/hang) and removed resources.ToCSS. Stay in this
+  # window; CI (.github/workflows) is pinned to 0.128.0 to match.
+  hugoVersion:
+    extended: true
+    min: "0.128.0"
+    max: "0.145.2"
   imports:
     - path: github.com/loikein/hugo-tufte
 languageCode: en-US

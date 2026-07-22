@@ -1,0 +1,8 @@
+# Pinned local Hugo binary — fetched via `make setup`, not committed
+/bin/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo resource cache
+/resources/_gen/
