@@ -18,22 +18,5 @@
     <a href="https://github.com/okankonur/borgen.github.io">Source</a>
   </nav>
   {{ content | safe }}
-  <script>
-    // Hovering a homepage title's EN tag previews the English title.
-    for (const title of document.querySelectorAll(".post-title")) {
-      const tag = title.querySelector(".lang-tag");
-      const def = title.querySelector(".title-default");
-      const alt = title.querySelector(".title-alt");
-      if (!tag || !def || !alt) continue;
-      tag.addEventListener("mouseenter", () => {
-        def.style.display = "none";
-        alt.style.display = "inline";
-      });
-      tag.addEventListener("mouseleave", () => {
-        def.style.display = "";
-        alt.style.display = "";
-      });
-    }
-  </script>
 </body>
 </html>

@@ -31,33 +31,6 @@
   margin: 0 0.4em;
 }
 
-/* Inline EN toggle on homepage titles: hover the tag to preview the English
-   title, click it to open the English page. The swap is driven by a small
-   script (see base.njk); without JS the Turkish title shows and the tag still
-   links through to the English page. */
-.post-title .title-alt {
-  display: none;
-}
-
-.lang-tag {
-  font-size: 0.6rem;
-  font-style: normal;
-  letter-spacing: 0.05em;
-  vertical-align: super;
-  margin-right: 0.4em;
-  padding: 0.05em 0.35em;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  color: #777;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.lang-tag:hover {
-  color: #111;
-  border-color: #111;
-}
-
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -90,13 +63,5 @@
   }
   .category-tag {
     border-color: #444;
-  }
-  .lang-tag {
-    border-color: #444;
-    color: #999;
-  }
-  .lang-tag:hover {
-    color: #eee;
-    border-color: #eee;
   }
 }
