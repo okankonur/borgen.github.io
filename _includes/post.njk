@@ -7,6 +7,7 @@ layout: base.njk
   <p class="post-meta">
     {{ date | dateHuman }}
     {% if categories %}&middot; {{ categories | join(", ") }}{% endif %}
+    {% if draft %}<span class="draft-tag">Draft</span>{% endif %}
   </p>
   {% set other = collections.postsAll | translationOf(resolvedRef, resolvedLang) %}
   {% if other %}

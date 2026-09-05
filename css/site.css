@@ -59,6 +59,18 @@
   border-color: #111;
 }
 
+.draft-tag {
+  font-size: 0.6rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  vertical-align: super;
+  margin-left: 0.4em;
+  padding: 0.05em 0.35em;
+  border: 1px solid #c9a227;
+  border-radius: 3px;
+  color: #a8861a;
+}
+
 .post-list {
   list-style: none;
   padding-left: 0;
@@ -74,6 +86,58 @@
   margin-left: 0.5em;
 }
 
+/* Tables. lib/markdown-tufte.js wraps every markdown table in
+   div.table-wrapper, which tufte.css already gives overflow-x: auto and a
+   sans-serif face. tufte.css stops there, so the rules below supply the
+   actual Tufte table look: horizontal hairlines only, no vertical rules, no
+   zebra striping. The wrapper is wider than the 55% text column because
+   these tables are reference material that needs the room; min-width keeps
+   the columns from collapsing on a phone, where the wrapper scrolls instead. */
+.table-wrapper {
+  max-width: 90%;
+  clear: both;
+  margin: 1.4rem 0;
+}
+
+.table-wrapper table {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Set by a `{cols: ...}` line above a table (see lib/markdown-tufte.js). The
+   plugin emits a <colgroup>; fixed layout is what makes those widths binding
+   instead of mere suggestions the browser may override to fit content. */
+.table-wrapper table.cols-fixed {
+  table-layout: fixed;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem 1.2rem 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-wrapper thead th {
+  font-weight: normal;
+  font-style: italic;
+  border-bottom: 1px solid #111;
+}
+
+.table-wrapper tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 760px) {
+  .table-wrapper {
+    max-width: 100%;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .post-meta,
   .post-list-date,
@@ -87,5 +151,12 @@
   .lang-tag:hover {
     color: #eee;
     border-color: #eee;
+  }
+  .table-wrapper th,
+  .table-wrapper td {
+    border-bottom-color: #3a3a3a;
+  }
+  .table-wrapper thead th {
+    border-bottom-color: #ddd;
   }
 }

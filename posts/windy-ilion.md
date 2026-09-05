@@ -1,143 +1,147 @@
 ---
-title: "Standing on Windy Ilion"
-subtitle: "How a dumb question about the Iliad turned into 3,200 years under my feet"
+title: "Rüzgârlı İlion'da Durmak"
+subtitle: "İlyada üzerine aptalca bir sorunun ayağımın altındaki 3.200 yıla dönüşmesi"
 date: 2026-07-22
 draft: true
-categories: ["History"]
-description: "It started with me not being able to tell the Iliad and the Odyssey apart. It ended with me realizing you can still stand on the walls of Troy, in the same wind Hector heard."
+lang: tr
+ref: windy-ilion
+categories: ["Tarih"]
+description: "İlyada ile Odysseia'yı birbirinden ayıramamamla başladı. Truva'nın surlarında, Hektor'un duyduğu rüzgârın aynısında hâlâ durabileceğinizi fark etmemle bitti."
 ---
 
 ::: epigraph
-> …like the shrieking of cranes that flee the winter and its rain,
-> flying with clamour toward the streams of Ocean…
+>Ne içindeyim zamanın,
+>Ne de büsbütün dışında;
+>Yekpâre, geniş bir ânın
+>Parçalanmaz akışında.
 >
-> <footer>— Homer, <cite>The Iliad</cite>, Book 3</footer>
+> <footer> - Ahmet Hamdi Tanpınar, <cite>Ne İçindeyim Zamanın</cite></footer>
 :::
 
-[It started with something embarrassing.]{.newthought} I could not, for the life of me, keep the *Iliad* and the *Odyssey* straight.[**İlyada** ve **Odysseia** — the two poems in Turkish.]{.marginnote lang="tr"} Pop culture has blended them into one big Trojan-War movie in my head, and I wanted the real version. So I started pulling a thread. This post is where the thread led — from two poems, to a real war, to a real hill in Çanakkale, to the strange and moving fact that the wind up there hasn't changed in three thousand years.
+[Utanç verici bir şeyle başladı.]{.newthought} Ne yaptıysam *İlyada* ile *Odysseia*'yı birbirinden ayıramıyordum.[Yunanca asıllarıyla *Ilias* ve *Odysseia*; İngilizcede *Iliad* ve *Odyssey*.]{.marginnote} Popüler kültür ikisini kafamda tek bir büyük Truva Savaşı filmine karıştırmıştı, ben de gerçeğini istedim. Öylece bir ipin ucundan çekmeye başladım. Bu yazı, ipin beni götürdüğü yer — iki şiirden gerçek bir savaşa, oradan Çanakkale'de gerçek bir tepeye ve oradaki rüzgârın üç bin yıldır değişmemiş olması gibi tuhaf, insanı sarsan bir gerçeğe.
 
-## Which one is which
+## Hangisi hangisi
 
-The cleanest way to hold them apart: **the *Iliad* is the war, the *Odyssey* is the journey home afterward.**
+İkisini ayrı tutmanın en temiz yolu: ***İlyada* savaştır, *Odysseia* savaştan sonraki eve dönüş yolculuğudur.**
 
-The *Iliad* is Achilles — a brilliant, rage-filled warrior sulking in his tent. It covers maybe *fifty days* near the end of a ten-year siege, and it ends, quietly, at the funeral of the Trojan prince Hector. That's it. The city hasn't even fallen yet.
+*İlyada* Akhilleus'tur — çadırında küsmüş oturan, parlak ve öfke dolu bir savaşçı. On yıllık bir kuşatmanın sonuna doğru olsa olsa *elli günü* anlatır ve Truva prensi Hektor'un cenazesinde sessizce biter. Hepsi bu. Şehir daha düşmemiştir bile.
 
-The *Odyssey* is Odysseus — the clever one, the strategist — spending ten years trying to get home to Ithaca while the sea god Poseidon makes his life hell. In real time the poem only covers about forty days; all the famous monsters are told in *flashback*, as memories over dinner in a stranger's hall.
+*Odysseia* Odysseus'tur — kurnaz olan, stratejist olan — deniz tanrısı Poseidon hayatını cehenneme çevirirken İthaka'ya, evine dönmek için on yıl uğraşan adam. Şiir gerçek zamanda yalnızca kırk günü kapsar; bütün o meşhur canavarlar *geriye dönüşle*, bir yabancının sofrasında akşam yemeği üstüne anlatılan hatıralar olarak geçer.
 
-Two things surprised me here.^[The whole story-world spans **20 years**: ten years of war, ten years of Odysseus getting lost on the way back. But each poem zooms in on only a few weeks of that.] First, **the Trojan Horse is not in the *Iliad* at all.** The poem stops before the city falls. The horse gets a passing mention in the *Odyssey* and was only really fleshed out centuries later by the Roman poet Virgil in the *Aeneid*. Second, the Cyclops and the Sirens — the greatest hits — are things Odysseus *recounts* at a banquet, not events we watch happen.
+Burada iki şey beni şaşırttı.^[Hikâye dünyasının tamamı **20 yıla** yayılır: on yıl savaş, on yıl da Odysseus'un dönüş yolunda kaybolması. Ama her iki şiir de bunun yalnızca birkaç haftasına odaklanır.] Birincisi, **Truva Atı *İlyada*'da hiç geçmez.** Şiir şehir düşmeden biter. At, *Odysseia*'da geçerken anılır ve asıl ayrıntılarıyla yüzyıllar sonra Romalı şair Vergilius tarafından *Aeneis*'te anlatılır. İkincisi, Kyklops ve Sirenler — yani en meşhur sahneler — bir ziyafette Odysseus'un *anlattığı* şeylerdir, bizim tanık olduğumuz olaylar değil.
 
-And the word itself? Yes — **"odyssey" comes straight from Odysseus.** In Greek, *Odysseia* literally means "the tale of Odysseus," and because his trip home was so absurdly long and detour-filled, the title drifted into an ordinary noun for any long, wandering journey. There's a darker bonus buried in his name, too.^[*Odysseus* comes from the verb *odyssasthai*, "to be angry at" or "to hate." His grandfather essentially named him **"Son of Wrath"** — fitting, for a man the gods spent a decade tormenting.]
+Peki kelimenin kendisi? Evet — **"odise" doğrudan Odysseus'tan geliyor.** Yunanca *Odysseia* kelimesi birebir "Odysseus'un hikâyesi" demek; adamın eve dönüşü saçma derecede uzun ve dolambaçlı olduğu için de başlık zamanla her türlü uzun, oradan oraya savrulan yolculuğu anlatan sıradan bir isme dönüştü. Adının içinde daha karanlık bir ikramiye de gizli.^[*Odysseus*, "birine öfkelenmek", "nefret etmek" anlamındaki *odyssasthai* fiilinden gelir. Dedesi ona esasen **"Öfkenin Oğlu"** adını vermiş — tanrıların on yıl boyunca eziyet ettiği bir adam için hiç fena bir isim değil.]
 
-## These are almost the oldest books we have
+## Elimizdeki neredeyse en eski kitaplar
 
-Here's the part that reframed everything for me. The poems were written down around **750–700 BCE**. But the events they describe belong to the Late Bronze Age, around **1200 BCE**.
+Benim için her şeyi yeniden çerçeveleyen kısım burası. Şiirler **MÖ 750–700** civarında yazıya geçirildi. Ama anlattıkları olaylar Geç Tunç Çağı'na, **MÖ 1200** dolaylarına ait.
 
-That's a gap of four to five *centuries*. For almost half a millennium, the *Iliad* and the *Odyssey* didn't exist on paper at all — they lived entirely in people's mouths. Professional bards[*aoidoi* — the singers who carried the poems for generations before anyone wrote them down.]{.marginnote lang="tr"} memorized tens of thousands of lines and performed them live, using strict rhythmic meter and repeating stock phrases — "rosy-fingered Dawn," "the wine-dark sea" — as handholds for memory. Only later did the Greeks borrow the Phoenician alphabet and finally pin the poems to a page.
+Arada dört beş *yüzyıl* var. Neredeyse yarım bin yıl boyunca *İlyada* ile *Odysseia* kâğıt üzerinde hiç var olmadı — tamamen insanların ağzında yaşadılar. Profesyonel ozanlar[*aoidos* — şiirleri, kimse yazıya geçirmeden önce kuşaklar boyunca taşıyan şarkıcılar.]{.marginnote} on binlerce dizeyi ezberleyip canlı icra ediyor, sıkı bir vezin ve "gül parmaklı Şafak", "şarap rengi deniz" gibi kalıp ifadeleri hafıza tutamağı olarak kullanıyordu. Yunanlar Fenike alfabesini ancak sonradan ödünç alıp şiirleri sayfaya sabitleyebildi.
 
-Then those pages had to survive 2,700 years, which is its own quiet miracle:
+Sonra o sayfaların 2.700 yıl hayatta kalması gerekti ki bu kendi başına sessiz bir mucize:
 
-1. **Oral tradition** carried them for centuries before writing.
-2. A master poet — traditionally, **Homer** — dictated them around 700 BCE.
-3. **Athens** mandated official written copies in the 6th century BCE so bards couldn't drift.
-4. Scholars at the **Library of Alexandria** edited them and split each into the 24 "books" we still use.
-5. **Byzantine monks** hand-copied the crumbling papyrus onto durable parchment through the Middle Ages.
-6. After Constantinople fell in 1453, Greek scholars fled to Italy with the manuscripts, and the first printed edition appeared in **Florence in 1488**.
+1. Yazıdan önce yüzyıllarca **sözlü gelenek** taşıdı.
+2. Usta bir şair — geleneksel olarak **Homeros** — MÖ 700 civarında yazdırdı.
+3. **Atina**, MÖ 6. yüzyılda resmî yazılı nüshaları zorunlu kıldı ki ozanlar metni savurmasın.
+4. **İskenderiye Kütüphanesi**'ndeki bilginler metinleri düzenledi ve her birini bugün hâlâ kullandığımız 24 "kitaba" böldü.
+5. **Bizanslı keşişler**, Orta Çağ boyunca ufalanan papirüsü dayanıklı parşömene elle kopyaladı.
+6. 1453'te İstanbul'un fethinden sonra Yunan bilginler el yazmalarıyla İtalya'ya kaçtı ve ilk basılı baskı **1488'de Floransa'da** çıktı.
 
-So yes — these are the foundation of Western literature, the source of the reluctant hero and the long journey home. Though "foundation of *Western* literature" needs an asterisk.^[They are *not* the oldest written stories on Earth. The Mesopotamian **Epic of Gilgamesh** (c. 2100–1800 BCE) beats Homer by more than a thousand years, alongside Egypt's *Tale of Sinuhe* and Babylon's *Enuma Elish*.]
+Yani evet — bunlar Batı edebiyatının temeli, gönülsüz kahramanın ve uzun eve dönüş yolculuğunun kaynağı. Gerçi "*Batı* edebiyatının temeli" ifadesine bir dipnot düşmek gerekiyor.^[Bunlar dünyanın *en eski* yazılı hikâyeleri değil. Mezopotamya'nın **Gılgamış Destanı** (yaklaşık MÖ 2100–1800) Homeros'u bin yıldan fazla geçiyor; yanında Mısır'ın *Sinuhe'nin Hikâyesi* ve Babil'in *Enuma Eliş*'i var.]
 
-## Troy was real
+## Truva gerçekti
 
-For a long time people assumed Troy was pure fiction. It isn't.
+Uzun süre Truva'nın tamamen kurgu olduğu varsayıldı. Değil.
 
-In the 1870s a treasure-hunting businessman named Heinrich Schliemann dug into a mound called **Hisarlık**[**Hisarlık** ("place of fortresses"), near **Çanakkale** in northwestern Turkey, guarding the **Çanakkale Boğazı** — the Dardanelles.]{.marginnote lang="tr"} in northwestern Turkey, near the Dardanelles, and hit a massive fortified city that had been built, destroyed, and rebuilt over and over for thousands of years. One layer in particular — the one archaeologists call **Troy VIIa** — shows every sign of a city that died violently around **1180 BCE**, right on schedule for the legend.
+1870'lerde Heinrich Schliemann adında hazine avcısı bir iş adamı, Türkiye'nin kuzeybatısında, Çanakkale Boğazı'nın hemen yanındaki **Hisarlık** höyüğünü[**Hisarlık**, yani *kaleler yeri*; Çanakkale yakınında, boğazı gözetleyen bir tepe. Batı kaynaklarında boğaz *the Dardanelles* diye geçer.]{.marginnote} kazdı ve binlerce yıl boyunca defalarca kurulmuş, yıkılmış ve yeniden kurulmuş devasa bir surlu şehre çarptı. Özellikle bir tabaka — arkeologların **Truva VIIa** dediği katman — **MÖ 1180** civarında şiddetle ölmüş bir şehrin bütün izlerini taşıyor; efsanenin takvimine tam uyuyor.
 
-Even better, the Bronze Age Hittites left records. Their tablets mention a vassal city called *Wilusa* — the same word as the Greek *Ilios*, another name for Troy — and a people called the *Ahhiyawa*, which is almost certainly the *Achaeans*, i.e. the Greeks.^[One Hittite treaty even names a king of Troy as *Alaksandu* — strikingly close to *Alexandros*, the alternate name for Prince Paris in the *Iliad*.] The Trojans themselves weren't quite Hittites; they were **Luwians**, a western-Anatolian people, close cultural cousins in the same Indo-European family.
+Dahası, Tunç Çağı Hititleri kayıt tutmuştu. Tabletlerinde *Wilusa* adlı bir vassal şehirden söz ediliyor — Yunanca *Ilios*, yani Truva'nın diğer adıyla aynı kelime — ve *Ahhiyawa* adlı bir halktan; bu da neredeyse kesin olarak *Akhalar*, yani Yunanlar.^[Bir Hitit antlaşması Truva kralının adını *Alaksandu* olarak veriyor — *İlyada*'da Prens Paris'in diğer adı olan *Aleksandros*'a şaşırtıcı derecede yakın.] Truvalılar tam olarak Hitit değildi; batı Anadolulu bir halk olan **Luviler**'di, aynı Hint-Avrupa ailesinden yakın kültürel kuzenler.
 
-And the real war probably wasn't about a stolen queen at all. Troy sat at the mouth of the Dardanelles, controlling the passage between the Mediterranean and the Black Sea — charging tolls, taxing trade. The historical Trojan War was, most likely, a very unromantic fight over a chokepoint and the money flowing through it.
+Gerçek savaş da muhtemelen çalınan bir kraliçeyle ilgili değildi. Truva, Çanakkale Boğazı'nın ağzında oturuyor, Akdeniz ile Karadeniz arasındaki geçişi denetliyor, geçiş ücreti alıyor, ticareti vergilendiriyordu. Tarihsel Truva Savaşı büyük ihtimalle son derece romantizmden uzak bir şeydi: bir boğaz ve içinden akan para üzerine bir kavga.
 
-### What "destroyed by fire and violence" actually looks like
+### "Ateş ve şiddetle yıkıldı" aslında neye benziyor
 
-I wanted to know *how* you can read all that out of dirt. When Carl Blegen carefully excavated Troy VIIa in the 1930s, he found a frozen snapshot of a city under siege:
+Bütün bunların topraktan nasıl okunduğunu merak ettim. Carl Blegen 1930'larda Truva VIIa'yı titizlikle kazdığında, kuşatma altındaki bir şehrin donmuş bir fotoğrafını buldu:
 
-- **People crammed in.** The once-spacious homes had been hastily chopped into tiny rooms — a city swollen with refugees from the countryside.
-- **Food stockpiled.** Huge storage jars[*pithoi* — the giant clay jars, sunk into the floors so people could walk over them and save every inch of space.]{.marginnote lang="tr"} were sunk into the floors, flush with the ground, hoarding grain and oil for a long blockade.
-- **Ammunition ready.** Neat piles of rounded slingstones sat stacked by the defensive towers.
-- **The city burned.** A layer of ash and charcoal *five to six feet deep* covered the streets. The limestone and mudbrick were cracked and glassy from sustained, city-wide heat.
-- **People died where they fell.** Skeletons lay in the open streets and under collapsed doorways — one with a crushed skull, another with fractured legs — and Mycenaean-Greek bronze arrowheads were scattered through the ruins, embedded in the walls.
+- **İnsanlar üst üste yığılmış.** Bir zamanlar ferah olan evler aceleyle minik odalara bölünmüştü — kırsaldan gelen mültecilerle şişmiş bir şehir.
+- **Yiyecek stoklanmış.** Devasa saklama küpleri[*pithos* — insanlar üzerinden yürüyüp her santimi kazanabilsin diye zeminlere gömülmüş dev toprak küpler.]{.marginnote} tabana gömülmüş, yerle bir hizada, uzun bir abluka için tahıl ve yağ biriktiriyordu.
+- **Cephane hazır.** Savunma kulelerinin dibinde düzgünce yığılmış yuvarlak sapan taşları duruyordu.
+- **Şehir yanmış.** Sokakları *bir buçuk iki metrelik* bir kül ve kömür tabakası kaplıyordu. Kireç taşı ve kerpiç, uzun süreli ve şehir çapındaki ısıdan çatlamış ve camlaşmıştı.
+- **İnsanlar düştükleri yerde ölmüş.** Açık sokaklarda ve çökmüş kapı eşiklerinin altında iskeletler yatıyordu — birinin kafatası ezilmiş, bir diğerinin bacakları kırılmıştı — ve yıkıntıların içine, duvarlara saplanmış Miken-Yunan tunç ok uçları saçılmıştı.
 
-Overcrowding, stockpiled food, foreign weapons, unburied bodies, a city-wide burn layer. That combination is why Troy VIIa is the best physical candidate we have for the fall of Troy.
+Aşırı kalabalık, stoklanmış yiyecek, yabancı silahlar, gömülmemiş cesetler, şehir çapında bir yanık tabakası. Truva VIIa'yı Truva'nın düşüşü için elimizdeki en iyi fiziksel aday yapan şey bu bileşim.
 
-## A lifespan is one centimeter of dirt
+## Bir ömür, bir santim toprak
 
-Somewhere in this rabbit hole I had the thought that actually made it click for me. All these layers — a person who lived their whole life inside Troy VIIa would have experienced it as *stable*, permanent, the only world there is. Childhoods, meals, arguments, harvests, decades of ordinary life. And to us, now, that entire lifetime is compressed into a single thin band of ash a centimeter thick.
+Bu tavşan deliğinin bir yerinde, benim için asıl yerine oturan düşünce geldi. Bütün bu katmanlar — hayatının tamamını Truva VIIa'nın içinde geçirmiş bir insan orayı *durağan*, kalıcı, var olan tek dünya olarak yaşamıştır. Çocukluklar, yemekler, tartışmalar, hasatlar, onlarca yıllık sıradan hayat. Ve bugün bize göre o koca ömür, bir santim kalınlığındaki ince bir kül şeridine sıkışmış durumda.
 
-An artificial mound like this — layer stacked on layer of human occupation — has a name.[A **tell**, or in Turkish a **höyük**: a "pancake stack" of cities, each built on the rubble of the last.]{.marginnote lang="tr"} At Hisarlık there are **nine** main cities, Troy I through Troy IX, stacked into more than four thousand sub-layers across three thousand years. Archaeologists tell them apart in a few ways I found genuinely clever:
+Böyle yapay bir tepenin — üst üste binmiş insan yerleşimi katmanlarının — bir adı var.[Türkçesi **höyük**, arkeoloji literatüründe *tell*: her biri bir öncekinin molozu üzerine kurulmuş şehirlerden oluşan bir "krep yığını".]{.marginnote} Hisarlık'ta **dokuz** ana şehir var; Truva I'den Truva IX'a kadar, üç bin yıla yayılmış dört binden fazla alt katman hâlinde yığılmışlar. Arkeologlar bunları birbirinden gerçekten zekice bulduğum birkaç yolla ayırıyor:
 
-- **Soil color and texture.** Dark charcoal and white ash mean fire. A yellowish clay slurry means mudbrick walls that melted in the rain after a house was abandoned. Reddish baked clay means a hearth or a kiln.
-- **Pottery style.** Pottery is the smartphone of archaeology — the styles changed every few generations. A particular painted Mycenaean jar can date a layer to a window of just a few decades.
-- **Architecture that cuts across itself.** New walls built on old ones, doorways bricked up, crude stone laid over fine dressed limestone.
-- **Radiocarbon.** A burnt roof beam, an olive pit, a seed from inside a storage jar — measure the decay of carbon-14 and you get a real calendar date.
+- **Toprağın rengi ve dokusu.** Koyu kömür ve beyaz kül yangın demek. Sarımsı bir kil bulamacı, ev terk edildikten sonra yağmurda eriyip akmış kerpiç duvarlar demek. Kızıl, pişmiş kil ise bir ocak ya da fırın.
+- **Çanak çömlek üslubu.** Çömlek, arkeolojinin akıllı telefonudur — üsluplar birkaç kuşakta bir değişmiş. Belirli bir boyalı Miken kabı, bir katmanı sadece birkaç on yıllık bir aralığa tarihleyebiliyor.
+- **Birbirini kesen mimari.** Eskinin üstüne kurulmuş yeni duvarlar, örülüp kapatılmış kapılar, ince işlenmiş kireç taşının üstüne konmuş kaba taş.
+- **Radyokarbon.** Yanmış bir çatı kirişi, bir zeytin çekirdeği, bir saklama küpünün içinden çıkan bir tohum — karbon-14'ün bozunmasını ölçüyorsunuz, elinize gerçek bir takvim tarihi geçiyor.
 
-## The man who destroyed Troy looking for Troy
+## Truva'yı ararken Truva'yı yıkan adam
 
-Now, about Schliemann. His dig is one of archaeology's great cautionary tales, and it's darkly funny.
+Gelelim Schliemann'a. Kazısı arkeolojinin en büyük ibret hikâyelerinden biri ve kara mizah tadında.
 
-He assumed Homer's grand Troy had to be the *oldest* layer, at the very bottom of the mound. So to get there fast, he hired hundreds of laborers with pickaxes and dynamite and carved a trench **14 meters deep and 40 meters wide** straight down through the middle of the hill — dumping thousands of tons of earth over the side.
+Homeros'un görkemli Truva'sının höyüğün en dibindeki *en eski* katman olması gerektiğini varsaydı. Oraya çabuk ulaşmak için yüzlerce işçiyi kazma ve dinamitle tutup tepenin tam ortasından aşağıya doğru **14 metre derinliğinde, 40 metre genişliğinde** bir hendek açtı — binlerce ton toprağı da kenardan aşağı döktü.
 
-In his rush to the bottom, he plowed *straight through* the actual Trojan War city — Troy VI and VIIa — tearing down the very walls he'd come to find and dismissing them as late rubble. He obliterated the stratigraphy that would have dated everything, and smashed through the later Greek and Roman monuments up top as well. Then, when he finally hit a hoard of gold near the bottom, he announced to the world that he'd found "Priam's Treasure," the gold of Homeric Troy.
+Dibe koşarken Truva Savaşı'nın gerçek şehrinin — Truva VI ve VIIa'nın — *tam ortasından* geçti; bulmaya geldiği surları yıkıp geçti ve onları geç dönem molozu diye bir kenara attı. Her şeyi tarihlendirmeyi sağlayacak tabakalanmayı yok etti, üstteki geç dönem Yunan ve Roma yapılarını da parçalayarak indi. Sonra en dipte bir altın hazinesine rastlayınca dünyaya "Priamos'un Hazinesi"ni, Homeros Truva'sının altınlarını bulduğunu ilan etti.
 
-He was off by a thousand years. That gold belonged to **Troy II**, a city that had already burned down around 2200 BCE — ancient history *by the time the Trojan War was even fought.* In chasing Homer, he destroyed the real city of the war to uncover one that was already a ruin when Hector was alive.
+Bin yıl şaşırmıştı. O altınlar, MÖ 2200 civarında çoktan yanıp yıkılmış olan **Truva II**'ye aitti — yani *Truva Savaşı yapıldığında bile* eskimiş tarihe. Homeros'un peşinden koşarken, savaşın gerçek şehrini, Hektor hayattayken bile çoktan harabe olmuş bir şehri ortaya çıkarmak için yıktı.
 
 ::: epigraph
-> Schliemann did more damage to the walls of Troy in three years than the entire Greek army managed in ten.
+> Schliemann, Truva'nın surlarına üç yılda, bütün Yunan ordusunun on yılda verdiğinden fazla zarar verdi.
 :::
 
-The upside of his blunder: that "wrong" bottom layer revealed just how deep the story goes. Before the war-era city, five earlier Troys had already risen and fallen on that exact hill — from a modest Troy I fishing fortress around 3000 BCE, to the golden goldsmith-citadel of Troy II, through centuries of grinding, rebuild-on-the-ruins survival. King Priam and Hector, walking their streets around 1200 BCE, were standing on roughly *eighteen centuries* of their own ancestors. They kept rebuilding in the same spot for one very modern reason: location. Whoever held that hill held the ships waiting below.
+Hatasının bir faydası oldu: o "yanlış" dip katman, hikâyenin ne kadar derine gittiğini gösterdi. Savaş dönemindeki şehirden önce, tam olarak aynı tepede beş Truva daha yükselip yıkılmıştı — MÖ 3000 dolaylarında mütevazı bir balıkçı kalesi olan Truva I'den, kuyumcuların altın şehri Truva II'ye, oradan yüzyıllar süren yıkıntı üstüne yeniden inşa etme mücadelesine. Kral Priamos ve Hektor, MÖ 1200 civarında kendi sokaklarında yürürken, aşağı yukarı *on sekiz yüzyıllık* atalarının üstünde duruyorlardı. Aynı noktada tekrar tekrar inşa etmelerinin çok modern bir sebebi vardı: konum. O tepeyi tutan, aşağıda bekleyen gemileri de tutuyordu.
 
-## The sea that walked away
+## Çekilip giden deniz
 
-Which raises the obvious objection I had — the one that had been nagging me. If Troy controlled sea trade, **why does the ruin sit five or six kilometers inland today,** overlooking flat farmland?
+Bu da benim aklımı kurcalayan o bariz itirazı doğuruyor. Truva deniz ticaretini denetliyorduysa, **bugün neden harabe düz tarlalara bakan, denizden beş altı kilometre içeride bir yerde duruyor?**
 
-Because the coastline moved. Troy once sat on a deep saltwater bay, and over three thousand years two rivers[The **Karamenderes** (Homer's *Scamander*) and the **Dümrek** (his *Simois*), both born on **Kaz Dağı** — Mount Ida.]{.marginnote lang="tr"} filled that entire bay in with silt washed down from Mount Ida. Bay became marsh, marsh became dry plain, and the shoreline crept further and further out toward the Aegean, century by century.
+Çünkü kıyı çizgisi yer değiştirdi. Truva bir zamanlar derin, tuzlu bir koyun kıyısındaydı; üç bin yıl boyunca iki nehir[**Karamenderes** (Homeros'un *Skamandros*'u) ve **Dümrek** (onun *Simoeis*'i); ikisi de **Kaz Dağı**'nda, yani Homeros'un İda'sında doğuyor.]{.marginnote} İda Dağı'ndan yıkanıp gelen alüvyonla o koyu tamamen doldurdu. Koy bataklığa, bataklık kuru ovaya dönüştü ve kıyı, yüzyıl yüzyıl Ege'ye doğru gitgide uzaklaştı.
 
 ```text
-   c. 3000 BCE (Troy I–II)        c. 1200 BCE (Troy VI–VIIa)          Today (Hisarlık)
-   ======================         ==========================         =================
-      [ Citadel ]                     [ Citadel ]                      [ Citadel ]
-          |                               |                                |
-      sea at the                    ~2–3 km harbor                   ~5–6 km of dry
-    foot of the hill               [ bay & anchorage ]              silted-in farmland
-          |                               |                                |
-      (Aegean Sea)                   (Aegean Sea)                     (Aegean Sea)
+   MÖ ~3000 (Truva I–II)         MÖ ~1200 (Truva VI–VIIa)          Bugün (Hisarlık)
+   =====================         ========================         =================
+       [ Kale ]                       [ Kale ]                        [ Kale ]
+          |                               |                              |
+     deniz tepenin                 ~2–3 km'lik liman              ~5–6 km alüvyonla
+      eteğinde                    [ koy ve demirleme ]              dolmuş kuru tarla
+          |                               |                              |
+       (Ege Denizi)                  (Ege Denizi)                    (Ege Denizi)
 ```
 
-In the war era the bay had partly silted up but still formed a sheltered natural harbor a couple of kilometers out — exactly where the Greeks would have beached their ships. Nineteenth-century critics used to cite this as proof Homer was making it all up: he has soldiers sprinting back and forth between the ships and the walls several times a day, impossible if the shore were where it is now. Then, in the 1990s, geologists drilled deep soil cores across the plain and found marine fossils, salt-marsh clay, and beach sand buried under the wheat fields — proof that around 1250 BCE a bay really did reach inland, right where Homer put the Greek camp. The poet, it turns out, knew the coastline he couldn't have seen.
+Savaş döneminde koy kısmen dolmuştu ama hâlâ birkaç kilometre ötede korunaklı, doğal bir liman oluşturuyordu — Yunanların gemilerini kıyıya çektiği yer tam da orası olmalı. On dokuzuncu yüzyıl eleştirmenleri bunu Homeros'un hepsini uydurduğunun kanıtı sayardı: şair askerleri gün içinde gemilerle surlar arasında defalarca koştururken, kıyı bugünkü yerinde olsa bu imkânsız olurdu. Derken 1990'larda jeologlar ovanın dört bir yanında derin toprak sondajları yaptı ve buğday tarlalarının altına gömülmüş deniz fosilleri, tuzlu bataklık kili ve plaj kumu buldu — MÖ 1250 civarında gerçekten de bir koyun içerilere kadar uzandığının, hem de tam Homeros'un Yunan kampını koyduğu yere kadar uzandığının kanıtı. Şair, göremeyeceği bir kıyı çizgisini biliyormuş.
 
-## The wind hasn't changed
+## Rüzgâr değişmedi
 
-Here's where it stopped being trivia and started being something else.
+Burada iş ilginç bir bilgi olmaktan çıkıp başka bir şeye dönüşüyor.
 
-Empires vanish, languages die, cities collapse into ash you measure in centimeters. But the *physical world* around Troy is almost exactly what it was. Stand on that hill today and you get the same sensory experience the Trojans and the Greeks did.
+İmparatorluklar yok oluyor, diller ölüyor, şehirler santimle ölçtüğünüz küle çöküyor. Ama Truva'nın çevresindeki *fiziksel dünya* neredeyse hiç değişmemiş. Bugün o tepede durduğunuzda, Truvalıların ve Yunanların yaşadığı duyusal deneyimin aynısını yaşıyorsunuz.
 
-Homer calls it **"windy Ilion"**[The relentless northerly is the **poyraz**, funneling down the Dardanelles off the Black Sea — the same wind that trapped ancient ships in the bay below.]{.marginnote lang="tr"} over a dozen times, and it isn't just poetry. A hard north wind still funnels down the strait off the Black Sea all summer. That wind is literally *why Troy got rich* — sailing ships couldn't beat straight into it, so they dropped anchor in the bay and waited, for days, for weeks, and paid the Trojans for water, food, and harbor space while they did. Stand on the ramparts now and it whips your hair and howls in your ears in the same cadence Hector heard looking out at the Greek camp.
+Homeros oraya on ikiden fazla kez **"rüzgârlı İlion"** diyor[Bitmek bilmeyen o kuzey rüzgârı **poyraz**; Karadeniz'den Çanakkale Boğazı'na doğru huniden geçer gibi iniyor — aşağıdaki koyda antik gemileri tutan rüzgârın ta kendisi.]{.marginnote} ve bu sadece şiir değil. Sert bir kuzey rüzgârı bütün yaz boyunca hâlâ Karadeniz'den boğaza iniyor. O rüzgâr, kelimenin tam anlamıyla *Truva'yı zengin eden şey* — yelkenliler rüzgâra karşı dosdoğru gidemediği için koyda demirleyip günlerce, haftalarca bekliyor, beklerken de su, yiyecek ve liman yeri için Truvalılara para ödüyorlardı. Bugün surlarda durun; rüzgâr saçınızı savuruyor ve kulaklarınızda, Hektor'un Yunan kampına bakarken duyduğu ritmin aynısıyla uğulduyor.
 
-And it isn't only the wind:
+Ve mesele yalnızca rüzgâr değil:
 
-- **The smell.** Homer's "many-fountained Ida, mother of wild beasts" still bakes in the summer sun and fills the air with red pine, wild thyme, oregano, and sage. The streams still smell of wet limestone and plane trees.
-- **The birds.** In Book 3 Homer compares the roar of the Trojan army to "the shrieking of cranes." That coast is a major migratory flyway; every spring and autumn storks and cranes still pour across the sky above the ruins, exactly the spectacle ancient residents paused their work to watch.
-- **The food.** Flatbread baked on hot stones, olive oil, salted sheep's-milk cheese, figs, wild grapes, slow stews of chickpea and lentil and fava, red wine cut with water and herbs against the afternoon heat. You could set that table today.
-- **The light.** The island of Tenedos[**Bozcaada** — the island still sitting on the horizon at dusk, exactly where it was when Achilles could see it.]{.marginnote lang="tr"} still sits on the horizon; the sun still drops into the Aegean and throws the same long golden shadows across the limestone and the yellow summer grass that it did when Achilles sat outside his tent.
+- **Koku.** Homeros'un "çok pınarlı, yabani hayvanların anası İda"sı yaz güneşinde hâlâ pişiyor ve havayı kızılçam, kekik, mercanköşk ve adaçayıyla dolduruyor. Dereler hâlâ ıslak kireç taşı ve çınar kokuyor.
+- **Kuşlar.** Homeros 3. Kitap'ta Truva ordusunun uğultusunu "turnaların çığlığına" benzetir. O kıyı büyük bir göç yolu; her ilkbahar ve sonbahar leylekler ve turnalar hâlâ harabelerin üstündeki gökyüzünden akıyor — antik sakinlerin işini bırakıp izlediği manzaranın aynısı.
+- **Yemek.** Kızgın taşta pişmiş yufka, zeytinyağı, tuzlanmış koyun peyniri, incir, yabani üzüm, nohutlu mercimekli baklalı ağır yahniler, öğleden sonranın sıcağına karşı suyla ve otlarla açılmış kırmızı şarap. Bugün aynı sofrayı kurabilirsiniz.
+- **Işık.** Tenedos adası[**Bozcaada** — Akhilleus'un görebildiği yerde, alacakaranlıkta hâlâ ufukta duran ada.]{.marginnote} hâlâ ufukta duruyor; güneş hâlâ Ege'ye düşüyor ve kireç taşıyla sarı yaz otlarının üstüne, Akhilleus çadırının önünde otururken attığı aynı uzun altın gölgeleri atıyor.
 
 ::: epigraph
-> A mother afraid for a child going to war. A soldier aching for home.
-> Grief for a dead friend, and the plain joy of a warm meal after a long day.
-> None of it has changed at all. They were just people, on the same dirt.
+> Savaşa giden çocuğu için korkan bir anne. Evini özleyen bir asker.
+> Ölen bir dost için tutulan yas ve uzun bir günün ardından sıcak bir yemeğin o yalın sevinci.
+> Hiçbiri zerre değişmemiş. Onlar da sadece insandı, aynı toprağın üstünde.
 :::
 
-That's the thing I keep coming back to. I started this because I couldn't tell two old books apart, and I ended up somewhere I didn't expect: the realization that "ancient" is a trick of distance. Close the gap and it's just people — worried, hungry, homesick, standing in a wind that's still blowing.
+Dönüp dolaşıp geldiğim yer burası. Bu işe iki eski kitabı birbirinden ayıramadığım için giriştim ve hiç beklemediğim bir yerde bitirdim: "antik" dediğimiz şeyin aslında bir mesafe oyunu olduğunu fark ederek. Mesafeyi kapatınca geriye sadece insanlar kalıyor — endişeli, aç, evini özlemiş, hâlâ esmekte olan bir rüzgârın içinde duran insanlar.
 
-Not a bad place for a dumb question to end up.
+Aptalca bir sorunun varacağı fena bir yer değil.
 
 ---
 
-*This piece grew out of a long back-and-forth I had with a chatbot one evening, chasing one tangent after another. I've fact-shaped and rewritten it into my own words here, but the shape of the journey — question leading to question — is exactly how it happened.*
+*Bu yazı, bir akşam bir sohbet robotuyla yaptığım, bir teğetten diğerine atlayan uzun bir konuşmadan çıktı. Buradaki hâlini doğrulayıp kendi cümlelerimle yeniden yazdım, ama yolculuğun şekli — sorunun soruyu doğurması — tam olarak böyle oldu.*

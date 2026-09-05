@@ -6,6 +6,13 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import tufteMarkdownPlugin from "./lib/markdown-tufte.js";
 import { DEFAULT_LANG, postLang, postRef } from "./lib/i18n.js";
 
+// Drafts stay out of the homepage and the feed in a production build
+// (`npm run build`, which is what CI runs) but show up while developing
+// (`npm run serve`), so work in progress can be previewed in place.
+// Draft pages are always written to their own URL either way.
+const SHOW_DRAFTS = process.env.ELEVENTY_RUN_MODE !== "build";
+const isListed = (item) => SHOW_DRAFTS || !item.data.draft;
+
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
@@ -37,7 +44,7 @@ export default function (eleventyConfig) {
 
   // Every post, in every language — used to find a post's translation.
   eleventyConfig.addCollection("postsAll", (api) =>
-    api.getFilteredByGlob("posts/*.md").filter((item) => !item.data.draft)
+    api.getFilteredByGlob("posts/*.md").filter(isListed)
   );
 
   // One entry per post (its default-language version if it has one) for the
@@ -45,7 +52,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (api) => {
     const byRef = new Map();
     for (const item of api.getFilteredByGlob("posts/*.md")) {
-      if (item.data.draft) continue;
+      if (!isListed(item)) continue;
       const ref = postRef(item.data);
       if (!byRef.has(ref) || postLang(item.data) === DEFAULT_LANG) byRef.set(ref, item);
     }

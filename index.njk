@@ -17,6 +17,7 @@ permalink: /index.html
         {% if en and en.data.resolvedLang == "en" %}<a class="title-link title-alt" href="{{ en.url }}">{{ en.data.title }}</a>{% endif %}
       </span>
       <span class="post-list-date">{{ post.date | dateHuman }}</span>
+      {% if post.data.draft %}<span class="draft-tag">Draft</span>{% endif %}
       {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
     </li>
     {% endfor %}
