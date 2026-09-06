@@ -160,3 +160,14 @@
     border-bottom-color: #ddd;
   }
 }
+
+/* Figures. tufte.css floats figcaption into the right margin (float: right
+   inside a <figure> that never clears it), so any caption taller than its
+   image spills out of the figure box and the next paragraph wraps around the
+   leftover lines. Containing the float keeps a figure the full height of
+   whichever is taller, image or caption. */
+figure::after {
+  content: "";
+  display: table;
+  clear: both;
+}

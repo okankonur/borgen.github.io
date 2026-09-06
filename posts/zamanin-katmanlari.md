@@ -59,7 +59,11 @@ Bronz Çağı Hititleri kayıt tutuyordu. Tabletlerinde Batı Anadolu’da Tarui
 
 Tarihte genel olarak Truva savaşının gerçekten yaşandığı ama mitolojik ögelerinin efsaneler olduğu düşünülmüş. Ancak truva savaşında bahsedilen İlion şehrinin tam olarak nerede olduğu kanıtlanamamış. Tarihte bu tartışma sürekli devam etmiş. En son 1870'lerde Çanakkale civarına gelen **Heinrich Schliemann** adında hazine avcısı bir Alman iş adamı, Hisarlık denen alçak bir tepeyi kazmaya başladı. Yüzlerce işçiyle tepenin ortasından aşağıya devasa bir hendek açtı ve altından üst üste yığılmış, defalarca yanmış, defalarca yeniden kurulmuş surlu şehirler çıktı. 
 
+![Schliemann'ın hendeği bugün hâlâ açık. Kesilmiş yüzeylerdeki levhalar hangi duvarın hangi şehre ait olduğunu gösteriyor: sol üstte Truva IX, aşağı indikçe daha eskiler.](/pics/troya-schliemann-hendegi.jpg){.fullwidth}
+
 Schliemann'ın kazdığı o tepede[Türkçesi **höyük**, arkeoloji literatüründe *tell*: her biri bir öncekinin molozu üzerine kurulmuş şehirlerden oluşan bir "pankek yığını".]{.marginnote} birbirinin üstüne yığılmış dokuz ana şehir var — ve Roma'dan sonra bir tane daha, kazı ekibinin gayrıresmî olarak **Troia X** dediği Bizans katmanı.
+
+![Hisarlık höyüğünün kesiti. Üstteki ince katmanlar en yeni olanlar; Schliemann aradığı şehri en dipte sanıp ortadan aşağı indi ve tam da onun içinden geçti.](/pics/troya-hoyuk-kesiti.svg){.fullwidth}
 
 {cols: 16% 22% 62%}
 | Katman | Tarih | Ne oldu |
@@ -81,6 +85,8 @@ Dokuz ana şehrin altında Blegen **46** katman saydı; toplamda MÖ ~3000'den M
 
 Bu katmanları uzaktan böyle listelemek kolay. Ama her bir katmandaki zamanı bir ömür açısından düşünün. *Her bir katmanda dedesinden toruna nesiller var*, hayatının tamamını Truva VIIa'nın içinde geçirmiş bir insan orayı *durağan*, kalıcı, var olan tek dünya olarak yaşamıştır. Çocukluklar, yemekler, tartışmalar, hasatlar, onlarca yıllık sıradan hayat. **Ve bugün bize göre o koca ömür, bir santim kalınlığındaki ince bir kül şeridine sıkışmış durumda.**
 
+![Truva VI'nın doğu kapısı: eğimli kireçtaşı sur ve dibinden dönerek geçen kapı yolu.](/pics/troya-vi-dogu-kapisi.jpg){.fullwidth}
+
 Şehrin olduğu tepede kesintisiz yaklaşık 4.500 yıllık yerleşim var. Ve Fatih Sultan Mehmed 1462'de oraya geldiğinde, son yerleşimin üstünden daha iki yüzyıl bile geçmemişti.
 
 Yani Truva "kayıp şehir" değildi — Homeros'un savaşından sonra iki bin beş yüz yıl daha yaşadı. Helenistik-Roma döneminde Ilium Novum — Athena Ilias tapınağı, tiyatrosu, surları olan, Roma'nın "atalarımızın şehri" diye ayrıcalık tanıdığı bir yer. Ve düzenli bir hac durağıydı:
@@ -91,6 +97,8 @@ Yani Truva "kayıp şehir" değildi — Homeros'un savaşından sonra iki bin be
 - Julianus (MS ~354) ziyaretini kendi mektubunda anlatır: piskopos Pegasios ona rehberlik etmiş, Hektor'un mezarındaki sunak hâlâ sıcakmış.
 
 Yani Truva, 15. yüzyılda "kayıp şehir" değildi. Yeri bilinen, üstünde taşı görünen, adı Homeros'tan beri kesintisiz taşınan bir harabeydi. Truva VIIa'da yaşayan biri için Truva I zaten *1800* bir antik çağdı; İskender için Truva VIIa 1000 yıl uzaktaydı; Julianus için İskender'in ziyareti 700 yıl önceydi. Aynı tepede duran her nesil, kendinden öncekilere bizim onların hepsine baktığımız gibi baktı.
+
+![Aynı tepede duran herkesin geriye baktığında gördüğü mesafe. İskender için Truva Savaşı 870 yıl geridedeydi — bizim Fatih'e olan uzaklığımızın bir buçuk katı.](/pics/zaman-perspektifi.svg){.fullwidth}
 
 ## İlion İsmi Uzun Zamandır Biliniyorsa Neden Truvayla İlişkisi Zor Bulundu?
 
@@ -106,6 +114,8 @@ Yüzyıllar boyunca, harabeler kendi adını taşıyan bir şehrin altında durd
 
 **5. Kimse kazmamıştı.** Tartışma yüzyıllarca tamamen metin okuyarak ve arazide yürüyerek yapıldı.
 
+![Hisarlık, çevresindeki ovadan zor ayrışan alçak bir tümsek. Bugünkü ziyaret yolunun altında on beş metrelik şehir birikintisi var.](/pics/hisarlik-tepesi.jpg){.fullwidth}
+
 Bir de hakkı teslim edilmesi gereken isimler var, çünkü Hisarlık'ı ilk savunan Schliemann değildi.[1822'de İskoç yazar **Charles Maclaren**, sadece metinlerden yola çıkarak doğru tepeyi işaret etmişti.]{.marginnote} Bölgede yaşayan **Frank Calvert** höyüğün doğu yarısını satın almış, 1860'larda kendi açtığı deneme çukurlarında umut verici izler bulmuş, ama kazıyı sürdürecek parası olmadığı için 1868'de Schliemann'ı oraya yönlendirmişti. Schliemann'ın getirdiği şey fikirden ziyade sermayeydi.
 
 Üstelik kendi bulduğunu da yanlış okudu. Homeros'un şehrinin *en dipte* olması gerektiğini varsayıp aşağı yardırdı, aradığı savaş dönemi şehrinin tam ortasından geçip surlarını yıktı ve en dipte rastladığı altına "Priamos'un Hazinesi" adını verdi. O altın **Truva II**'ye, yani Truva Savaşı yaşandığında bile bin yıllık, çoktan eskimiş bir katmana aitti.
@@ -114,4 +124,31 @@ Gerisini başkaları tamamladı: **Dörpfeld** 1890'larda Truva VI'nın büyük 
 
 ## Aynı Tepe Aynı Rüzgar Aynı Kuşlar Aynı Günbatımı
 
-Truvayı ziyaret ettiğinizde düşünmesi en sıradışı şey, orada esen rüzgarın
+Truvayı ziyaret ettiğinizde düşünmesi en sıradışı şey, orada esen rüzgarın **birebir aynı rüzgar** olması. Homeros İlion'a on ikiden fazla kez "rüzgârlı" diyor[Bu bitmek bilmeyen kuzey rüzgârının bugünkü adı **poyraz**; Karadeniz'den Çanakkale Boğazı'na huniden geçer gibi iniyor.]{.marginnote} ve bu bir şiir süsü değil, şehrin varlık sebebi. Yelkenli gemiler rüzgâra karşı dosdoğru gidemez; boğazdan yukarı çıkmak isteyen tekneler aşağıdaki koyda demirleyip rüzgârın dönmesini beklemek zorundaydı, bazen haftalarca. Beklerken de su, yiyecek ve liman parası ödüyorlardı. Truva'yı zengin eden şey buydu. Yani bugün harabelerde durduğunuzda saçınızı savuran hava akımıyla Hektor'un surdan aşağı bakarken kulağında uğuldayan hava akımı aynı.
+
+Ama burada bir gariplik var. Şehrin varlık sebebi rüzgâr ve limandıysa, rüzgâr hâlâ orada da liman nerede? Hisarlık'ta durup baktığınızda deniz falan görmüyorsunuz; düz tarlalar görüyorsunuz ve kıyı 5-6 kilometre ötede.
+
+![Höyükten ovaya bakış. Gemilerin çekildiği koy bu tarlaların altında.](/pics/troya-ovasi.jpg){.fullwidth}
+
+**Değişen tek şey coğrafya oldu.** Truva bir zamanlar derin bir koyun kıyısındaydı. Kaz Dağı'ndan[Homeros'un **İda**'sı. Oradan inen iki nehir: **Karamenderes** (destandaki *Skamandros*) ve **Dümrek** (*Simoeis*).]{.marginnote} inen iki nehir üç bin yıl boyunca alüvyon taşıdı; koy önce sığlaştı, sonra bataklığa, sonra kuru ovaya döndü.
+
+![Koy önce sığlaştı, sonra bataklığa, sonra kuru ovaya döndü. Değişmeyen tek şey, üç panelin üstünden geçen rüzgâr.](/pics/truva-kiyi-cizgisi.svg){.fullwidth}
+
+Savaş döneminde koy kısmen dolmuştu ama hâlâ birkaç kilometrelik korunaklı bir demirleme yeriydi — Yunanların gemilerini kıyıya çektiği yer orası olmalı. Bu uzun süre Homeros'un her şeyi uydurduğunun kanıtı sayıldı: şair askerleri gün içinde gemilerle surlar arasında defalarca gidip getiriyor, oysa kıyı bugünkü yerinde olsa bu imkânsızdı. Sonra 1990'larda jeologlar ovanın dört bir yanında derin sondajlar yaptı ve buğday tarlalarının altından deniz fosilleri, tuzlu bataklık kili ve plaj kumu çıktı. MÖ 1250 civarında gerçekten de bir koy içerilere kadar uzanıyormuş, hem de tam Homeros'un Yunan kampını koyduğu yere kadar. Adam, kendi zamanında göremeyeceği bir kıyı çizgisini biliyormuş.
+
+**Geri kalan hemen her şey aynı kaldı:**
+
+- **Koku.** Homeros'un "çok pınarlı, yabani hayvanların anası" dediği İda yaz güneşinde hâlâ pişiyor; hava kızılçam, kekik, mercanköşk ve adaçayı kokuyor.
+- **Kuşlar.** İlyada'nın 3. kitabında Truva ordusunun uğultusu "turnaların çığlığına" benzetilir. O kıyı büyük bir göç yolu; leylekler ve turnalar her ilkbahar ve sonbahar hâlâ harabelerin üstünden akıyor.
+- **Işık.** Bozcaada[Antik adı **Tenedos**. Akhilleus'un baktığı yerde, alacakaranlıkta hâlâ ufukta duruyor.]{.marginnote} hâlâ ufukta duruyor; güneş hâlâ Ege'ye düşüyor ve kireç taşıyla sarı yaz otlarının üstüne aynı uzun altın gölgeleri atıyor.
+- **Yemek.** Kızgın taşta pişmiş yufka, zeytinyağı, tuzlanmış koyun peyniri, incir, nohutlu baklalı ağır yahniler, öğle sıcağına karşı suyla açılmış kırmızı şarap. Aynı sofrayı bugün kurabilirsiniz.
+
+Yazının başından beri anlatmaya çalıştığım katman meselesi burada tersine dönüyor. Şehir aynı tepede on kere üst üste yığıldı, diller öldü, imparatorluklar geldi geçti, koca bir ömür bir santimlik kül şeridine sıkıştı. Ama rüzgâr hiç katmanlanmadı. Poyraz için MÖ 1200 ile bugün arasında hiçbir fark yok; o tek ve kesintisiz bir şey. Katmanlanan sadece insan yapımı olan taraftı.
+
+Ve zaman ölçeği meselesinin en somut hâli de bu sanırım: Truva VIIa'da surun üstünde duran biriyle bugün aynı yerde duran sizin aranızda 3200 yıl var — ama duyduğunuz ses, aldığınız koku, gördüğünüz gün batımı ve yüzünüze çarpan rüzgâr *aynı*. Aradaki bütün o mesafe, bütün o katmanlar, hanedanlar, alfabeler ve kazı sezonları, duyularınıza gelen şeyin tamamen dışında kalıyor.
+
+Galiba "antik" dediğimiz şey bir zaman ölçüsü değil, bir mesafe ölçüsü. Mesafeyi kapatınca geriye sadece insanlar kalıyor.
+
+---
+
+*Fotoğraflar Wikimedia Commons'tan, serbest lisanslarla:* [Schliemann hendeği](https://commons.wikimedia.org/wiki/File:Troy_Schliemann_trench_2657.jpg) (Dosseman, CC BY-SA 4.0) · [Truva VI doğu kapısı](https://commons.wikimedia.org/wiki/File:East_Gate_Complex_of_Troy_VI,_2012.jpg) (Mosbatho, CC BY 4.0) · [Hisarlık höyüğü](https://commons.wikimedia.org/wiki/File:Hisarl%C4%B1k_(Troy).jpg) (Barrowbob, CC BY-SA 4.0) · [Ova](https://commons.wikimedia.org/wiki/File:View_of_surrounding_plains_-_Troy_(8708440361).jpg) (Jorge Láscar, CC BY 2.0).
