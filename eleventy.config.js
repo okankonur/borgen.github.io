@@ -17,6 +17,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("css");
+  // css/ is copied verbatim; without this its README would also be built
+  // as a page, since the input directory is the repo root.
+  eleventyConfig.ignores.add("css/**");
   eleventyConfig.addPassthroughCopy("pics");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");

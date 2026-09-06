@@ -3,7 +3,7 @@
    Re-adding width/side padding double-insets and overflows the viewport. */
 .sitenav {
   padding-top: 1.5rem;
-  font-family: et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: ETbb, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
 .sitenav a {
