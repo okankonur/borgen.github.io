@@ -4,6 +4,7 @@ import markdownItAttrs from "markdown-it-attrs";
 import markdownItContainer from "markdown-it-container";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import tufteMarkdownPlugin from "./lib/markdown-tufte.js";
+import { writeDarkVariants } from "./lib/svg-dark-variant.js";
 import { DEFAULT_LANG, postLang, postRef } from "./lib/i18n.js";
 
 // Drafts stay out of the homepage and the feed in a production build
@@ -21,6 +22,13 @@ export default function (eleventyConfig) {
   // as a page, since the input directory is the repo root.
   eleventyConfig.ignores.add("css/**");
   eleventyConfig.addPassthroughCopy("pics");
+  // Each diagram also gets a generated `.dark.svg` twin in the output, which
+  // the <picture> in lib/markdown-tufte.js selects on a dark-mode viewport.
+  // See lib/svg-dark-variant.js for why the SVG's own media query is not
+  // enough on its own.
+  eleventyConfig.on("eleventy.after", ({ dir }) =>
+    writeDarkVariants("pics", `${dir.output}/pics`)
+  );
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("favicon-16x16.png");

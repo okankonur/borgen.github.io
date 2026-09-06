@@ -168,6 +168,10 @@
    hold a legible width and scroll sideways instead of shrinking further. The
    wrapper comes from lib/markdown-tufte.js and goes around SVG images only,
    so photographs still scale down as before. */
+.figure-scroll picture {
+  display: block;
+}
+
 .figure-scroll {
   overflow-x: auto;
   /* Keep a sideways swipe inside the diagram instead of letting it run on into

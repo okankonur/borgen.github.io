@@ -11,6 +11,7 @@
     .lbl   { font-size:13.5px; }
     .sm    { font-size:11.5px; font-style:italic; fill:var(--ink); opacity:.75; }
     .ac    { fill:var(--accent); }
+    .rock  { stroke:var(--ink); stroke-width:1; opacity:.45; }
 
     /* Dark mode. Light strokes on a dark ground lose far more to antialiasing
        than dark strokes on paper do, and on a phone the diagram is scaled down
@@ -27,7 +28,7 @@
   </style>
   <defs>
     <pattern id="rock" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
-      <line x1="0" y1="0" x2="0" y2="10" stroke="var(--ink)" stroke-width="1" opacity=".45"/>
+      <line class="rock" x1="0" y1="0" x2="0" y2="10"/>
     </pattern>
   </defs>
 

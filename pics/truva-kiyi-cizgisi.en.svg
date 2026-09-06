@@ -9,6 +9,9 @@
     .ttl  { font-size:14.5px; }
     .sm   { font-size:11.5px; font-style:italic; opacity:.75; }
     .ac   { fill:var(--accent); }
+    .mk   { stroke:var(--ink); fill:none; stroke-width:1.4; }
+    .mkac { stroke:var(--accent); fill:none; stroke-width:1.4; }
+    .sep  { stroke:var(--ink); stroke-width:1; opacity:.22; stroke-dasharray:3 6; }
 
     /* Dark mode. Light strokes on a dark ground lose far more to antialiasing
        than dark strokes on paper do, and on a phone the diagram is scaled down
@@ -25,15 +28,15 @@
   </style>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,1 L9,5 L0,9" fill="none" stroke="var(--ink)" stroke-width="1.4"/>
+      <path class="mk" d="M0,1 L9,5 L0,9"/>
     </marker>
     <marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,1 L9,5 L0,9" fill="none" stroke="var(--accent)" stroke-width="1.4"/>
+      <path class="mkac" d="M0,1 L9,5 L0,9"/>
     </marker>
   </defs>
 
   <!-- panel dividers -->
-  <g stroke="var(--ink)" stroke-width="1" opacity=".22" stroke-dasharray="3 6">
+  <g class="sep">
     <line x1="312" y1="92" x2="312" y2="272"/>
     <line x1="627" y1="92" x2="627" y2="272"/>
   </g>
