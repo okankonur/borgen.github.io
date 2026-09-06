@@ -2,7 +2,7 @@
 title: "Zamanın Katmanları"
 subtitle: "Antik Çağdaki İnsanlar İçin de Bir Antik Çağ Vardı"
 date: 2026-09-05
-draft: true
+draft: false
 lang: tr
 ref: zamanin-katmanlari
 categories: ["Tarih"]
