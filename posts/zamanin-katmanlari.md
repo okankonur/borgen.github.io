@@ -65,7 +65,7 @@ Bu isimlerle aynı halktan bahsediliyor ama ismi koyanlar farklı. Aslında heps
 
 **Yunanlar** sonradan doğan kimliğin adı ve o kimliğin üç ayrı adı var, üçü de başka yerden geliyor. *Hellenes* kendi verdikleri ad; ortak bir kimliğe MÖ 8. yüzyıldan sonra, Olimpiyatlar, Delphi ve ortak tapınaklar etrafında dönüşüyor, Pers savaşlarındaki "barbar" karşıtlığıyla da iyice sertleşiyor. *Greek* Latinlerin adı: Romalıların ilk tanıdığı grup, Aristoteles'in Dodona civarında oturduğunu söylediği *Graikoi*'lardı; Latince *Graeci* oradan çıkıp bütün halka yayılıyor. *Yunan* ise doğunun adı: Perslerin Batı Anadolu'daki İonialılara dediği *Yauna*, Aramice ve Arapça üzerinden *Yūnān* olup Türkçeye geçiyor. 
 
-Buradan çıkan sonuç şu: **Truva Savaşı'nı "Yunanlar Truvalılara karşı" diye anlatmak aslında bir anakronizm.** MÖ 1200'de ortada Yunanistan diye bir şey yok; birbirinden ayrı saray krallıkları var ve kendilerini tek bir halk saymıyorlar. O tek halk fikri savaştan yaklaşık 500 sene sonra, tam da savaşı anlatan destanın içinde doğuyor. Destan savaşı aktarırken aynı zamanda savaşanları da ilk kez tek bir "biz" haline getiriyor.
+Truva Savaşı'nı "Yunanlar Truvalılara karşı" diye anlatmak aslında bir anakronizm.[Anakronizm, bir olay, nesne, kişi veya kavramın gerçekte ait olduğu zaman dilimi ile uyuşmayacak şekilde yanlış bir döneme yerleştirilmesi]{.marginnote} MÖ 1200'de ortada Yunanistan diye bir şey yok; birbirinden ayrı saray krallıkları var ve kendilerini tek bir halk saymıyorlar. O tek halk fikri savaştan yaklaşık 500 sene sonra, tam da savaşı anlatan destanın içinde doğuyor. Destan savaşı aktarırken aynı zamanda savaşanları da ilk kez tek bir "biz" haline getiriyor.
 
 
 ## Aynı Tepede Üst Üste On Şehir
