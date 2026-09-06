@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" width="940" height="560" role="img" aria-label="Hisarlık höyüğünün kesiti: alttan üste Truva I-V, VI, VIIa, VIIb, VIII, IX ve X katmanları, ortadan Schliemann'ın hendeği geçiyor">
+  <style>
+    :root { --ink:#33312e; --paper:#fffff8; --accent:#9c6b3f; }
+    @media (prefers-color-scheme: dark) { :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; } }
+    .ink   { stroke:var(--ink); fill:none; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+    .thin  { stroke:var(--ink); fill:none; stroke-width:1.1; stroke-linecap:round; }
+    .band  { fill:var(--ink); }
+    .hot   { fill:var(--accent); fill-opacity:.20; }
+    .paper { fill:var(--paper); }
+    .dash  { stroke:var(--ink); fill:none; stroke-width:1.2; stroke-dasharray:5 4; }
+    text   { font-family:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif; fill:var(--ink); }
+    .lbl   { font-size:13.5px; }
+    .sm    { font-size:11.5px; font-style:italic; fill:var(--ink); opacity:.75; }
+    .ac    { fill:var(--accent); }
+  </style>
+  <defs>
+    <pattern id="rock" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="var(--ink)" stroke-width="1" opacity=".45"/>
+    </pattern>
+  </defs>
+
+  <g>
+    <!-- katman bantlari: alttan uste -->
+    <path class="band" fill-opacity=".13" d="M110,470 L690,470 L665.4,400 L134.6,400 Z"/>
+    <path class="band" fill-opacity=".10" d="M134.6,400 L665.4,400 L649.6,355 L150.4,355 Z"/>
+    <path class="hot"                     d="M150.4,355 L649.6,355 L638.1,322 L161.9,322 Z"/>
+    <path class="band" fill-opacity=".10" d="M161.9,322 L638.1,322 L628.2,294 L171.8,294 Z"/>
+    <path class="band" fill-opacity=".07" d="M171.8,294 L628.2,294 L615.6,258 L184.4,258 Z"/>
+    <path class="band" fill-opacity=".11" d="M184.4,258 L615.6,258 L601.6,218 L198.4,218 Z"/>
+    <path class="band" fill-opacity=".05" d="M198.4,218 L601.6,218 L590,185 L210,185 Z"/>
+
+    <!-- disa hat ve katman cizgileri -->
+    <path class="ink" d="M110,470 L134.6,400 L150.4,355 L161.9,322 L171.8,294 L184.4,258 L198.4,218 L210,185 L590,185 L601.6,218 L615.6,258 L628.2,294 L638.1,322 L649.6,355 L665.4,400 L690,470 Z"/>
+    <path class="thin" d="M134.6,400 L665.4,400 M150.4,355 L649.6,355 M161.9,322 L638.1,322 M184.4,258 L615.6,258 M198.4,218 L601.6,218"/>
+    <path class="dash" d="M171.8,294 L628.2,294"/>
+
+    <!-- ana kaya -->
+    <path d="M90,470 L710,470 L710,492 L90,492 Z" fill="url(#rock)" stroke="none"/>
+    <path class="ink" d="M90,470 L710,470"/>
+
+    <!-- Schliemann'in hendegi -->
+    <path class="paper" d="M350,185 L366,458 L416,458 L432,185 Z"/>
+    <path class="dash" d="M350,185 L366,458 L416,458 L432,185"/>
+  </g>
+
+  <!-- olcek: derinlik -->
+  <g class="thin">
+    <path d="M66,185 L66,470 M58,185 L74,185 M58,470 L74,470"/>
+  </g>
+  <text class="sm" transform="rotate(-90 40 327)" x="40" y="327" text-anchor="middle">yaklaşık 15 metre birikmiş şehir</text>
+
+  <!-- ust: bugunku ziyaretci -->
+  <g class="thin">
+    <circle cx="520" cy="157" r="6"/>
+    <path d="M520,163 L520,175 M511,167 L529,166 M520,175 L513,184 M520,175 L527,184"/>
+  </g>
+  <text class="sm" x="534" y="172">bugün, tepenin üstünde siz</text>
+
+  <!-- hendek etiketi -->
+  <path class="thin" d="M300,132 C330,144 360,160 386,183"/>
+  <text class="lbl" x="120" y="118">Schliemann’ın hendeği (1871–73)</text>
+  <text class="sm"  x="120" y="134">14 m derin, 40 m geniş — aradığı şehrin tam ortasından geçti</text>
+
+  <!-- sag etiketler -->
+  <g class="thin">
+    <path d="M677.7,435 L700,435 M657.4,377 L700,377 M643.7,338 L700,338 M633.2,308 L700,308 M621.9,276 L700,276 M608.6,238 L700,238 M595.6,201 L700,201"/>
+  </g>
+  <g class="lbl">
+    <text x="708" y="440">Truva I–V · MÖ 3000–1750</text>
+    <text x="708" y="382">Truva VI · MÖ 1750–1300</text>
+    <text x="708" y="343" class="ac">Truva VIIa · MÖ 1300–1180</text>
+    <text x="708" y="313">Truva VIIb · MÖ 1180–950</text>
+    <text x="708" y="281">Truva VIII · MÖ 750–85</text>
+    <text x="708" y="243">Truva IX · MÖ 85 – MS 500</text>
+    <text x="708" y="206">Truva X · MS 500–1300</text>
+  </g>
+  <text class="sm ac" x="708" y="357">savaşın en güçlü adayı</text>
+  <text class="sm" x="182" y="289">ince kesinti (MÖ 950–750)</text>
+  <text class="sm" x="400" y="510" text-anchor="middle">ana kaya</text>
+</svg>
