@@ -171,3 +171,21 @@ figure::after {
   display: table;
   clear: both;
 }
+
+/* Video figures. tufte.css sizes <img> only, so a looping clip in a <figure>
+   gets the same rules — otherwise it renders at its intrinsic pixel width and
+   overflows the text column. */
+figure video {
+  max-width: 100%;
+  height: auto;
+}
+
+figure.fullwidth video {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  figure video {
+    width: 100%;
+  }
+}

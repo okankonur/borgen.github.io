@@ -6,7 +6,7 @@ draft: true
 lang: tr
 ref: zamanin-katmanlari
 categories: ["Tarih"]
-description: "Hem kendi tarihimize hem de evrendeki dünya dışı medeniyet olasılıklarına bakarken insan merkezli zaman ölçeğini değiştirmek çok farklı bir çerçeve ortaya çıkarıyor."
+description: "Antik Çağdaki İnsanlar İçin de Bir Antik Çağ Vardı."
 ---
 
 ::: epigraph
@@ -107,19 +107,19 @@ Yani Truva, 15. yüzyılda "kayıp şehir" değildi. Yeri bilinen, üstünde ta�
 
 Yüzyıllar boyunca, harabeler kendi adını taşıyan bir şehrin altında durdu. Görülmemesinin ise birkaç sebebi var:
 
-#### 1. Antik çağ bu yeri zaten reddetmişti
+### 1. Antik çağ bu yeri zaten reddetmişti
  En büyük sebep bu. MÖ 2. yüzyılda bölgeden bir alim olan Skepsisli Demetrios, "şu anda kendine Ilion diyen şehir Homeros'un Truva'sı değildir" tezini savundu ve gerçek yerin birkaç kilometre ötede olduğunu söyledi. Bu görüşü **Strabon** benimseyip *Geographika*'sına aldı. Strabon, 19. yüzyıla kadar Avrupa'nın antik coğrafya konusundaki bir numaralı otoritesiydi. Yani en çok okunan kaynak, doğru adresi açıkça yanlış ilan ediyordu.
 
-#### 2. İsim unutulmuştu
+### 2. İsim unutulmuştu
 Bizans Ilion'u 13. yüzyıla doğru giderek dağılınca o adı taşıyan yaşayan bir yerleşim kalmadı. Osmanlı döneminde tepenin adı **Hisarlık**'tı; "kaleler yeri" anlamında, Anadolu'da onlarcası bulunan bir isim. Elinde Homeros'la gelen bir gezgin olsa, kimsenin "Ilion" demediği bir tarlaya bakıyor olacaktı.
 
-#### 3. Seksen yıl boyunca yanlış tepe sanıldı
+### 3. Seksen yıl boyunca yanlış tepe sanıldı
 1780'lerde Fransız gezgin Jean-Baptiste Lechevalier, gerçek Truva'nın 10 km güneydeki **Pınarbaşı (Balı Dağ)** olduğunu öne sürdü. Tezi şuydu: İlyada'da Akhilleus, Hektor'u şehrin biri sıcak biri soğuk iki pınarının çevresinde kovalar, Pınarbaşı'nda bol kaynak vardır, Hisarlık'ta yoktur.[Bu tezin destekçileri arasında, 1830'larda Osmanlı ordusunda danışmanlık yaparken Troas'ı haritalayan genç bir Prusyalı subay da vardı: Helmuth von Moltke.]{.marginnote} Bu görüş 19. yüzyılın büyük bölümünde hâkim kaldı.
 
-#### 4. Tepe hiçbir şeye benzemiyordu
+### 4. Tepe hiçbir şeye benzemiyordu
 Hisarlık alçak, ekilmiş bir tümsekti; üstünde görünen taşlar geç dönem Roma kalıntılarıydı, yani sıradan bir taşra kasabası izlenimi veriyordu. Altında 15 metre birikmiş şehir katmanı olabileceği kimsenin aklına gelmedi; **höyük** kavramı da, tabakalanmayı okuma yöntemi de henüz arkeolojinin standart aleti değildi. Üstüne bir de coğrafya tutmuyordu: Homeros'un Truva'sı denizin kıyısındadır, Hisarlık ise bugün kıyıdan 6 km içeride. Karamenderes ile Dümrek'in üç bin yılda koyu alüvyonla doldurduğu ancak sonradan anlaşıldı.
 
-#### 5. Kimse kazmamıştı
+### 5. Kimse kazmamıştı
 Tartışma yüzyıllarca tamamen metin okuyarak ve arazide yürüyerek yapıldı.
 
 ![Hisarlık, çevresindeki ovadan zor ayrışan alçak bir tümsek. Bugünkü ziyaret yolunun altında on beş metrelik şehir birikintisi var.](/pics/hisarlik-tepesi.jpg){.fullwidth}
@@ -127,9 +127,16 @@ Tartışma yüzyıllarca tamamen metin okuyarak ve arazide yürüyerek yapıldı
 
 ## Aynı Tepe Aynı Rüzgar Aynı Kuşlar Aynı Günbatımı
 
-Truvayı ziyaret ettiğinizde düşünmesi en sıradışı şey, orada esen rüzgarın **birebir aynı rüzgar** olması. Homeros İlion'a on ikiden fazla kez "rüzgârlı" diyor[Bu bitmek bilmeyen kuzey rüzgârının bugünkü adı **poyraz**; Karadeniz'den Çanakkale Boğazı'na huniden geçer gibi iniyor.]{.marginnote} ve bu bir şiir süsü değil, şehrin varlık sebebi. Yelkenli gemiler rüzgâra karşı dosdoğru gidemez; boğazdan yukarı çıkmak isteyen tekneler aşağıdaki koyda demirleyip rüzgârın dönmesini beklemek zorundaydı, bazen haftalarca. Beklerken de su, yiyecek ve liman parası ödüyorlardı. Truva'yı zengin eden şey buydu. Yani bugün harabelerde durduğunuzda saçınızı savuran hava akımıyla Hektor'un surdan aşağı bakarken kulağında uğuldayan hava akımı aynı.
+Truvayı ziyaret ettiğinizde düşünmesi en sıradışı şey, orada esen rüzgarın **birebir aynı rüzgar** olması. Homeros İlion'a on ikiden fazla kez "rüzgârlı" diyor.[Bu bitmek bilmeyen kuzey rüzgârının bugünkü adı **poyraz**; Karadeniz'den Çanakkale Boğazı'na huniden geçer gibi iniyor.]{.marginnote} Yelkenli gemiler rüzgâra karşı dosdoğru gidemez; boğazdan yukarı çıkmak isteyen tekneler aşağıdaki koyda demirleyip rüzgârın dönmesini beklemek zorundaydı, bazen haftalarca. Beklerken de su, yiyecek ve liman parası ödüyorlardı. Truva'yı zengin eden şey buydu. Yani bugün harabelerde durduğunuzda saçınızı savuran hava akımıyla Hektor'un surdan aşağı bakarken kulağında uğuldayan hava akımı aynı.
 
-Ama burada bir gariplik var. Şehrin varlık sebebi rüzgâr ve limandıysa, rüzgâr hâlâ orada da liman nerede? Hisarlık'ta durup baktığınızda deniz falan görmüyorsunuz; düz tarlalar görüyorsunuz ve kıyı 5-6 kilometre ötede.
+Ama burada bir gariplik var. İlyada'ya göre gemilerden surlar yürüme mesafesinde sayılır. Troy filminde de çok yakında olmasa da yürüme mesafesi gibi gösterilmişti. Şehrin varlık sebebi rüzgâr ve liman idiyse, rüzgâr hâlâ orada da liman nerede? Hisarlık'ta durup baktığınızda deniz falan görmüyorsunuz; düz tarlalar görüyorsunuz ve kıyı 5-6 kilometre ötede.
+
+![*Troy* (2004): surlardan bakınca deniz ve kıyıya çekilmiş Yunan gemileri. Film bu mesafeyi doğru kuruyor — ama bugün aynı yerden bakınca sadece tarla var.](/pics/troy-2004-surlardan-deniz.jpg){.fullwidth}
+
+<figure class="fullwidth">
+<video src="/pics/troy-2004-ovada-yuruyus.mp4" autoplay loop muted playsinline preload="metadata"></video>
+<figcaption>Yunan ordusu kumsaldaki kamptan kalkıp ovayı geçiyor. Filmin kurduğu mesafe bu: gemiler arkada, şehir karşıda, arası yürünecek kadar. Bugün o kumsalın yerinde Karamenderes'in getirdiği alüvyon var.</figcaption>
+</figure>
 
 ![Höyükten ovaya bakış. Gemilerin çekildiği koy bu tarlaların altında.](/pics/troya-ovasi.jpg){.fullwidth}
 
@@ -140,19 +147,53 @@ Ama burada bir gariplik var. Şehrin varlık sebebi rüzgâr ve limandıysa, rü
 Savaş döneminde koy kısmen dolmuştu ama hâlâ birkaç kilometrelik korunaklı bir demirleme yeriydi. Yunanların gemilerini kıyıya çektiği yer orası olmalı. Bu uzun süre Homeros'un her şeyi uydurduğunun kanıtı sayıldı: şair, askerlerin gün içinde gemilerle surlar arasında defalarca gidip geldiğini söylüyor, oysa kıyı bugünkü yerinde olsa bu imkânsız olurdu. Sonra 1990'larda jeologlar ovanın dört bir yanında derin sondajlar yaptı ve buğday tarlalarının altından deniz fosilleri, tuzlu bataklık kili ve plaj kumu çıktı. MÖ 1250 civarında gerçekten de bir koy içerilere kadar uzanıyormuş, hem de tam Homeros'un Yunan kampını koyduğu yere kadar. Homeros yazıya döktüğü dönemde kıyı şeridi ve coğrafya böyle değildi, yani bu durum uydurduğunu değil tam tersine gerçekten 500 sene önceki savaşın nesiller boyunca bu detaylar değişmeden kulaktan kulağa aktarıldığını gösteriyor. İnanılmaz bir şey. Homeros uydurdu desen, sonradan kanıtlanan bu coğrafi farkı uydurabilir miydi? 
 
 
-**Geri kalan hemen her şey aynı kaldı:**
+### Destanda Geçen Yerler Bugün Nerede
 
-- **Koku.** Homeros'un "çok pınarlı, yabani hayvanların anası" dediği İda yaz güneşinde hâlâ pişiyor; hava kızılçam, kekik, mercanköşk ve adaçayı kokuyor.
-- **Kuşlar.** İlyada'nın 3. kitabında Truva ordusunun uğultusu "turnaların çığlığına" benzetilir. O kıyı büyük bir göç yolu; leylekler ve turnalar her ilkbahar ve sonbahar hâlâ harabelerin üstünden akıyor.
-- **Işık.** Bozcaada[Antik adı **Tenedos**. Akhilleus'un baktığı yerde, alacakaranlıkta hâlâ ufukta duruyor.]{.marginnote} hâlâ ufukta duruyor; güneş hâlâ Ege'ye düşüyor ve kireç taşıyla sarı yaz otlarının üstüne aynı uzun altın gölgeleri atıyor.
-- **Yemek.** Kızgın taşta pişmiş yufka, zeytinyağı, tuzlanmış koyun peyniri, incir, nohutlu baklalı ağır yahniler, öğle sıcağına karşı suyla açılmış kırmızı şarap. Aynı sofrayı bugün kurabilirsiniz.
+Koyun kaybolması en dramatik değişim ama tek değişim o. İlyada'yı yanınıza alıp Hisarlık'ta durursanız, destanın tarif ettiği manzaranın neredeyse tamamını hâlâ yerinde bulabiliyorsunuz; değişen çoğunlukla sadece isimler:
 
-Yazının başından beri anlatmaya çalıştığım katman meselesi burada tersine dönüyor. Şehir aynı tepede on kere üst üste yığıldı, diller öldü, imparatorluklar geldi geçti, koca bir ömür bir santimlik kül şeridine sıkıştı. Ama rüzgâr hiç katmanlanmadı. Poyraz için MÖ 1200 ile bugün arasında hiçbir fark yok; o tek ve kesintisiz bir şey. Katmanlanan sadece insan yapımı olan taraftı.
+{cols: 26% 22% 52%}
+| Destanda | Bugün | Not |
+| --- | --- | --- |
+| *Skamandros* (tanrıların dilinde *Ksanthos*) | **Karamenderes** | Kaz Dağı'ndan inip Kumkale'de boğaza dökülür |
+| *Simoeis* | **Dümrek Çayı** | Kuzeydoğudan gelip ovada Karamenderes'e karışır |
+| *İda* | **Kaz Dağları** | Zeus savaşı Gargaros zirvesinden seyreder; en yüksek noktası 1.774 m |
+| *Tenedos* | **Bozcaada** | Apollon'un adası; donanmanın tahta at gecesinde arkasına saklandığı yer |
+| *İmbros* | **Gökçeada** | Truva ovasından bakınca Semadirek'i gizleyen ada |
+| *Samothrake* | **Semadirek** | Poseidon'un savaşı seyrettiği doruk |
+| *Sigeion* ve *Rhoiteion* burunları | **Kumkale–Yeniköy sırtı** ve **İntepe** | Koyun ağzını tutan iki burun; Yunan kampı ikisinin arasında |
+| *Khryse* | **Gülpınar** | Destanın ilk sayfasındaki rahip Khryses'in yeri; Apollon Smintheion Tapınağı hâlâ ayakta |
+| *Thebe* (Plakos eteğinde) | **Edremit** civarı | Andromakhe'nin memleketi; Akhilleus yağmalamıştı |
+| *Abydos* | **Nara Burnu** | Truvalı müttefiklerden; boğazın en dar yeri, Kserkses köprüsünü buraya kurdu |
+| *Zeleia*, *Aisepos* kıyısında | **Gönen Çayı** boyu | Truva'ya ok atan Pandaros'un memleketi |
+| *Dardania* | **Dardanel** | Boğazın adı, Priamos'un atası Dardanos'tan geliyor |
 
-Ve zaman ölçeği meselesinin en somut hâli de bu sanırım: Truva VIIa'da surun üstünde duran biriyle bugün aynı yerde duran sizin aranızda 3200 yıl var — ama duyduğunuz ses, aldığınız koku, gördüğünüz gün batımı ve yüzünüze çarpan rüzgâr *aynı*. Aradaki bütün o mesafe, bütün o katmanlar, hanedanlar, alfabeler ve kazı sezonları, duyularınıza gelen şeyin tamamen dışında kalıyor.
+## Nehirler
+Homeros, Skamandros'un tanrılar arasındaki adının *Ksanthos*, yani "sarı" olduğunu söylüyor. Kaz Dağı'ndan inen su bugün de aynı sarı-kahve renkte akıyor: taşıdığı alüvyon yüzünden. Yani nehrin rengiyle şehri gömen madde tam olarak aynı şey. İlyada'nın 21. kitabında bu nehir bir tanrı olarak Akhilleus'un üstüne taşıyor, kahraman kıyıdaki bir karaağaca tutunup canını zor kurtarıyor.[Kıyıdaki ağaçlar da destandakiler: söğüt, ılgın, karaağaç.]{.marginnote} Karamenderes bugün de aynı huyda; yazın üstünden adımlayabileceğiniz ince bir iple, kışın ve ilkbaharda ovayı basan bir sel arasında gidip geliyor. 1996'da tamamlanan **Bayramiç Barajı** artık onu yukarıdan tutuyor: Akhilleus'la boğuşan nehir bugün ovada on beş bin hektarı sulayan bir şebekenin başı. 12. kitapta tanrılar tam da bu iki nehri, Skamandros ile Simoeis'i birleştirip Yunanların gemi kampını koruyan surunu süpürüyorlar — ve gerçekten de o surdan bugüne tek bir taş bulunabilmiş değil. Ova her şeyi yuttu.
 
-Galiba "antik" dediğimiz şey bir zaman ölçüsü değil, bir mesafe ölçüsü. Mesafeyi kapatınca geriye sadece insanlar kalıyor.
+## İki pınar
+22. kitapta Akhilleus, Hektor'u surların çevresinde kovalarken iki pınarın yanından geçiyorlar: biri buram buram sıcak, öbürü yazın ortasında bile dolu gibi soğuk; yanlarında da Truvalı kadınların savaştan önce çamaşır yıkadığı taş yalaklar var. Yukarıda anlattığım gibi bu tek detay, 19. yüzyılın büyük bölümünde arayışı 10 km güneydeki Pınarbaşı'na kaydırdı, çünkü Hisarlık'ın çevresinde öyle bir sıcak-soğuk çifti yok. Ama 1997'de Korfmann'ın ekibi kalenin güneyinde başka bir şey buldu: kayanın içine oyulmuş, yeraltından su taşıyan bir **mağara ve tünel sistemi**. Tavandaki sarkıtların uranyum-toryum tarihlemesi, sistemin MÖ ~2900'de — yani daha Truva I'in ilk yüzyıllarında — kullanılmaya başlandığını ve Roma dönemine kadar sürdüğünü gösterdi.^[2000'lerde ovanın kaynakları hidrojeolojik ve hidrokimyasal olarak da tarandı; Homeros'un pınar çifti hâlâ kesin biçimde eşleştirilmiş değil. Ama "şair uydurmuş" artık en kolay açıklama değil.] Yeraltı suyu yıl boyu sabit sıcaklıktadır, soğuk bir sabahta ağzı tüter. Üstüne, Hitit tabletlerindeki Alaksandu antlaşması Wilusa'nın kutsal tanıkları arasında bir **KASKAL.KUR** — "yeraltı su yolu" — sayıyor. Yani şehrin altında, destan yazıya dökülmeden iki bin yıl önce açılmış ve kutsal sayılmış bir su kaynağı var.
+
+## Gemilerin çekildiği kıyı
+Destan Yunan kampını iki burnun arasına koyuyor: *Sigeion* ve *Rhoiteion*. İkisi de yerli yerinde — biri Kumkale-Yeniköy tarafındaki sırt, öbürü ovanın öteki ucundaki **İntepe**. Aradaki koy artık tarla ama iki burun hâlâ göründüğü için kampın sınırlarını gözünüzle çizebiliyorsunuz. Bir de alternatif var: Korfmann, boğazın *dışında* kalan, Ege'ye bakan **Beşik Koyu**'nu daha güçlü aday sayıyordu.[Poyraz hikâyenin yarısı, öbür yarısı akıntı: Marmara'dan Ege'ye doğru boğazdan sürekli bir yüzey akıntısı iner, dar yerlerde birkaç knot'ı bulur. Yelkenliyle hem rüzgâra hem suya karşı çıkamazsınız.]{.marginnote} 1982-87 kazılarında koyun kenarında Bronz Çağı'na ait bir mezarlık çıkardı: Miken çanak çömleğiyle gömülmüş, kadını erkeği çocuğu olan ama yaşlısı olmayan bir topluluk. Yani rüzgârı beklerken orada ölmüş gemiciler. Beşik bugün yazın girip çıkılan bir plaj.
+
+## Ovadaki konik tepecikler
+Tarlaların ortasında ve kıyı sırtlarında duran, uzaktan fark edilen konik höyükler var: Sivritepe, Beşik Sivritepe, İntepe, Üvecik Tepe. Antik çağ boyunca bunlar kahramanların mezarı diye gösterildi; Sivritepe **Akhilleus'un**, boğaza bakan bir diğeri **Aias'ın** mezarı sayılıyordu. İskender'in yağ döktüğü, Fatih'in 1462'de "nerede" diye sorduğu mezarlar bunlar. Bugün de oradalar, yanlarından arabayla geçiyorsunuz. Tuhaf olan şu: kazılanların hiçbirinden Bronz Çağı savaşçısı çıkmadı. En irisi olan Üvecik Tepe'nin, Caracalla'nın Patroklos taklidi cenaze töreni yaptırdığı arkadaşı Festus'a ait olduğu anlaşıldı. Yani höyükler destanı değil, destanın hayranlarını takip ediyor: ova sadece şehir katmanı biriktirmemiş, **hac katmanı** da biriktirmiş.
+
+## Poseidon'un oturduğu yer
+13. kitapta Poseidon savaşı "ormanlık Samothrake'nin en yüksek doruğundan" seyrediyor; oradan hem İda'yı, hem Priamos'un şehrini, hem Yunan gemilerini gördüğü söyleniyor. Truva ovasında durup baktığınızda Semadirek'i doğrudan göremezsiniz, önünde Gökçeada durur. Ama Semadirek'in 1.600 metrelik Fengari zirvesi, açık havada Gökçeada'nın sırtının üstünden görünür.[19. yüzyıldan beri Troas'a gelen gezginlerin "Homeros burayı gerçekten biliyormuş" demek için gösterdiği detaylardan biri bu.]{.marginnote} Yani şair tanrısını, bütün sahneyi aynı anda gören tek noktaya oturtmuş — ve o noktayı ancak orada durup ufka bakmış biri seçebilir.
+
+## Geri kalan hemen her şey aynı kaldı:
+
+- Homeros'un "çok pınarlı, yabani hayvanların anası" dediği İda yaz güneşinde hâlâ pişiyor; hava kızılçam, kekik, mercanköşk ve adaçayı kokuyor.
+- İlyada'nın 3. kitabında Truva ordusunun uğultusu "turnaların çığlığına" benzetilir. O kıyı büyük bir göç yolu; leylekler ve turnalar her ilkbahar ve sonbahar hâlâ harabelerin üstünden akıyor.
+- Bozcaada[Antik adı **Tenedos**. Akhilleus'un baktığı yerde, alacakaranlıkta hâlâ ufukta duruyor.]{.marginnote} hâlâ ufukta duruyor; güneş hâlâ Ege'ye düşüyor ve kireç taşıyla sarı yaz otlarının üstüne aynı uzun altın gölgeleri atıyor.
+- Homeros surun zayıf yerini tarif ederken oradaki yabani incir ağacını (*erineos*) adres olarak veriyor; Andromakhe, Hektor'a orayı tutmasını söyler. Höyüğün yamaçlarında yabani incir hâlâ bitiyor.
+- Kızgın taşta pişmiş yufka, zeytinyağı, tuzlanmış koyun peyniri, incir, nohutlu baklalı ağır yahniler, öğle sıcağına karşı suyla açılmış kırmızı şarap. Aynı sofrayı bugün kurabilirsiniz.
+
+
 
 ---
 
 *Fotoğraflar Wikimedia Commons'tan, serbest lisanslarla:* [Schliemann hendeği](https://commons.wikimedia.org/wiki/File:Troy_Schliemann_trench_2657.jpg) (Dosseman, CC BY-SA 4.0) · [Truva VI doğu kapısı](https://commons.wikimedia.org/wiki/File:East_Gate_Complex_of_Troy_VI,_2012.jpg) (Mosbatho, CC BY 4.0) · [Hisarlık höyüğü](https://commons.wikimedia.org/wiki/File:Hisarl%C4%B1k_(Troy).jpg) (Barrowbob, CC BY-SA 4.0) · [Ova](https://commons.wikimedia.org/wiki/File:View_of_surrounding_plains_-_Troy_(8708440361).jpg) (Jorge Láscar, CC BY 2.0).
+
+*Film kareleri:* Troy (2004), yön. Wolfgang Petersen, Warner Bros. — kısa alıntı, eleştiri ve yorum amacıyla.
