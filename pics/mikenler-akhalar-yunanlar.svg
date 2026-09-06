@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 412" width="940" height="412" role="img" aria-label="Mikenler, Akhalar ve Yunanlar adlarının hangi çağda ve kim tarafından konduğunu gösteren zaman çizelgesi">
+  <style>
+    :root { --ink:#33312e; --paper:#fffff8; --accent:#9c6b3f; }
+    .band  { fill:var(--ink); fill-opacity:.14; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; }
+    .bandf { fill:var(--ink); fill-opacity:.34; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; }
+    .gap   { fill:var(--ink); fill-opacity:.055; stroke:none; }
+    .thin  { stroke:var(--ink); fill:none; stroke-width:1.1; stroke-linecap:round; }
+    .acl   { stroke:var(--accent); fill:none; stroke-width:1.4; stroke-dasharray:4 4; stroke-linecap:round; }
+    .acd   { stroke:var(--accent); fill:none; stroke-width:1.2; stroke-dasharray:1.5 4; opacity:.6; }
+    .mk    { stroke:var(--ink); fill:none; stroke-width:1.4; }
+    .mkac  { stroke:var(--accent); fill:none; stroke-width:1.4; }
+    text   { font-family:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif; fill:var(--ink); }
+    .ttl   { font-size:14.5px; }
+    .sub   { font-size:11.5px; font-style:italic; opacity:.72; }
+    .nt    { font-size:12px; opacity:.88; }
+    .sm    { font-size:11.5px; font-style:italic; opacity:.75; }
+    .ac    { fill:var(--accent); }
+    .acn   { fill:var(--accent); font-size:12px; }
+
+    /* Dark mode. Light strokes on a dark ground lose far more to antialiasing
+       than dark strokes on paper do, and on a phone the diagram is scaled down
+       on top of that, so the hairlines and the faintest fills carry a little
+       more weight here than they do on white. Geometry is untouched. */
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; }
+      .band  { fill-opacity:.22; stroke-width:1.7; }
+      .bandf { fill-opacity:.40; stroke-width:1.7; }
+      .gap   { fill-opacity:.10; }
+      .thin  { stroke-width:1.4; }
+      .acl   { stroke-width:1.7; }
+      .acd   { stroke-width:1.5; opacity:.7; }
+      .sub   { opacity:.82; }
+      .sm    { opacity:.85; }
+    }
+  </style>
+  <defs>
+    <marker id="aha2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="mkac" d="M0,1 L9,5 L0,9"/>
+    </marker>
+  </defs>
+
+  <!-- karanlik cag seridi -->
+  <rect class="gap" x="394" y="52" width="48" height="298"/>
+  <text class="sm" x="418" y="44" text-anchor="middle">Karanlık Çağ · MÖ 1100–800 · yazı unutulur</text>
+
+  <!-- 1876: adin geriye dogru konmasi -->
+  <g class="acn" text-anchor="end">
+    <text x="880" y="44">Bu adı kendileri kullanmadı.</text>
+    <text x="880" y="60">1876’da kazılan Mykene’den, geriye doğru kondu.</text>
+  </g>
+  <circle class="ac" cx="870" cy="74" r="3"/>
+  <path class="acl" marker-end="url(#aha2)" d="M866,74 L360,74 L360,88"/>
+
+  <!-- 1. Mikenler -->
+  <rect class="band" x="314" y="96" width="80" height="22" rx="2"/>
+  <g text-anchor="end">
+    <text class="ttl" x="238" y="105">Mikenler</text>
+    <text class="sub" x="238" y="121">arkeolojinin adı</text>
+  </g>
+  <g class="nt">
+    <text x="314" y="136">MÖ ~1600–1100 · saray uygarlığı, kiklop surları, Linear B arşivleri</text>
+    <text x="314" y="151">1952’de Linear B çözüldü: konuştukları dil Yunancaydı.</text>
+  </g>
+
+  <!-- 2. Akhalar -->
+  <rect class="band"  x="314" y="190" width="80" height="22" rx="2"/>
+  <rect class="bandf" x="346" y="190" width="29" height="22" rx="2"/>
+  <g text-anchor="end">
+    <text class="ttl" x="238" y="199">Akhalar</text>
+    <text class="sub" x="238" y="215">çağdaşlarının adı</text>
+  </g>
+  <path class="thin" d="M360,212 L360,224"/>
+  <text class="nt" x="352" y="236">Hitit tabletleri: <tspan font-style="italic">Ahhiyawa</tspan> · MÖ ~1400–1220</text>
+  <circle class="ac" cx="458" cy="201" r="4"/>
+  <path class="acl" marker-end="url(#aha2)" d="M450,201 L402,201"/>
+  <g class="nt">
+    <text x="468" y="197">Homeros MÖ ~700: <tspan font-style="italic">Akhaioi · Danaoi · Argeioi</tspan></text>
+    <text x="468" y="212">Hiçbirinde “Hellen” yok.</text>
+  </g>
+
+  <!-- Homeros ile Hellen kimliginin ayni ana denk gelmesi -->
+  <path class="acd" d="M458,206 L458,268"/>
+
+  <!-- 3. Yunanlar -->
+  <rect class="band" x="458" y="270" width="436" height="22" rx="2"/>
+  <g text-anchor="end">
+    <text class="ttl" x="238" y="279">Yunanlar · Hellenler</text>
+    <text class="sub" x="238" y="295">sonradan doğan kimlik</text>
+  </g>
+  <g class="nt">
+    <text x="458" y="310"><tspan font-style="italic">Hellenes</tspan> — kendi verdikleri ad; ortak kimlik MÖ 8. yy’dan sonra</text>
+    <text x="458" y="326"><tspan font-style="italic">Graeci</tspan> → Greek (Batı) · <tspan font-style="italic">Yauna</tspan>/İonia → Yunan (Doğu): dışarıdan konan adlar</text>
+  </g>
+
+  <!-- eksen -->
+  <g class="thin">
+    <path d="M250,355 L894,355 M250,351 L250,359 M330,351 L330,359 M410,351 L410,359 M490,351 L490,359 M570,351 L570,359 M650,351 L650,359 M730,351 L730,359 M810,351 L810,359 M890,351 L890,359"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="250" y="374">MÖ 2000</text>
+    <text x="330" y="374">MÖ 1500</text>
+    <text x="410" y="374">MÖ 1000</text>
+    <text x="490" y="374">MÖ 500</text>
+    <text x="570" y="374">0</text>
+    <text x="650" y="374">MS 500</text>
+    <text x="730" y="374">MS 1000</text>
+    <text x="810" y="374">MS 1500</text>
+    <text x="890" y="374">MS 2000</text>
+  </g>
+
+  <text class="sm" x="250" y="398">Her satır bir ad. Oklar, adın hangi çağdan geriye doğru uzatıldığını gösteriyor.</text>
+</svg>
