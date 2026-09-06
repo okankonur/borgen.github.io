@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 300" width="940" height="300" role="img" aria-label="Three stages of Troy's coastline: in 3000 BC the sea at the foot of the hill, in 1200 BC a bay two to three kilometres across, today five to six kilometres of alluvial plain">
   <style>
     :root { --ink:#33312e; --paper:#fffff8; --accent:#9c6b3f; }
-    @media (prefers-color-scheme: dark) { :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; } }
     .ink  { stroke:var(--ink); fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
     .thin { stroke:var(--ink); fill:none; stroke-width:1.1; stroke-linecap:round; }
     .sea  { fill:var(--ink); fill-opacity:.10; }
@@ -10,6 +9,19 @@
     .ttl  { font-size:14.5px; }
     .sm   { font-size:11.5px; font-style:italic; opacity:.75; }
     .ac   { fill:var(--accent); }
+
+    /* Dark mode. Light strokes on a dark ground lose far more to antialiasing
+       than dark strokes on paper do, and on a phone the diagram is scaled down
+       on top of that, so the hairlines and the faintest fills carry a little
+       more weight here than they do on white. Geometry is untouched. */
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; }
+      .ink  { stroke-width:1.8; }
+      .thin { stroke-width:1.4; }
+      .acl  { stroke-width:1.8; }
+      .sea  { fill-opacity:.16; }
+      .sm   { opacity:.85; }
+    }
   </style>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">

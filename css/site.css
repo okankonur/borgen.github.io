@@ -161,6 +161,30 @@
   }
 }
 
+/* Diagram figures. The SVG diagrams are drawn on a fixed ~940px canvas with
+   11-14px labels, so in a phone's ~300px text column everything in them lands
+   under 5px — unreadable, and worst in dark mode, where light hairlines on a
+   dark ground blur away as they thin. Same answer as the wide tables above:
+   hold a legible width and scroll sideways instead of shrinking further. The
+   wrapper comes from lib/markdown-tufte.js and goes around SVG images only,
+   so photographs still scale down as before. */
+.figure-scroll {
+  overflow-x: auto;
+  /* Keep a sideways swipe inside the diagram instead of letting it run on into
+     the browser's back-navigation gesture. */
+  overscroll-behavior-x: contain;
+}
+
+@media (max-width: 760px) {
+  /* `auto` plus a cap, rather than a min-width: a diagram wider than the cap
+     renders at 44rem and scrolls, while one already narrower keeps its own
+     size instead of being blown up to the cap. */
+  figure .figure-scroll img {
+    width: auto;
+    max-width: 44rem;
+  }
+}
+
 /* Figures. tufte.css floats figcaption into the right margin (float: right
    inside a <figure> that never clears it), so any caption taller than its
    image spills out of the figure box and the next paragraph wraps around the
