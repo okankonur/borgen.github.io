@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 300" width="940" height="300" role="img" aria-label="Three stages of Troy's coastline: in 3000 BC the sea at the foot of the hill, in 1200 BC a bay two to three kilometres across, today five to six kilometres of alluvial plain">
+  <style>
+    :root { --ink:#33312e; --paper:#fffff8; --accent:#9c6b3f; }
+    @media (prefers-color-scheme: dark) { :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; } }
+    .ink  { stroke:var(--ink); fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+    .thin { stroke:var(--ink); fill:none; stroke-width:1.1; stroke-linecap:round; }
+    .sea  { fill:var(--ink); fill-opacity:.10; }
+    .acl  { stroke:var(--accent); fill:none; stroke-width:1.6; stroke-linecap:round; }
+    text  { font-family:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif; fill:var(--ink); }
+    .ttl  { font-size:14.5px; }
+    .sm   { font-size:11.5px; font-style:italic; opacity:.75; }
+    .ac   { fill:var(--accent); }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9" fill="none" stroke="var(--ink)" stroke-width="1.4"/>
+    </marker>
+    <marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9" fill="none" stroke="var(--accent)" stroke-width="1.4"/>
+    </marker>
+  </defs>
+
+  <!-- panel dividers -->
+  <g stroke="var(--ink)" stroke-width="1" opacity=".22" stroke-dasharray="3 6">
+    <line x1="312" y1="92" x2="312" y2="272"/>
+    <line x1="627" y1="92" x2="627" y2="272"/>
+  </g>
+
+  <!-- the constant: the poyraz -->
+  <path class="acl" marker-end="url(#aha)" d="M905,64 C700,50 480,80 265,62 C190,56 130,66 60,72"/>
+  <text class="sm ac" x="905" y="46" text-anchor="end">poyraz — the same wind across all three panels</text>
+
+  <g>
+    <!-- ===== P1: x0 = 10 ===== -->
+    <rect class="sea" x="18" y="188" width="192" height="16"/>
+    <path class="thin" d="M22,193 q8,-4 16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 M22,201 q8,-4 16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0"/>
+    <path class="ink" d="M210,204 L296,204"/>
+    <path class="ink" d="M220,204 L258,166 L292,204"/>
+
+    <!-- ===== P2: x0 = 325 ===== -->
+    <rect class="sea" x="333" y="188" width="112" height="16"/>
+    <path class="thin" d="M337,193 q8,-4 16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 M337,201 q8,-4 16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0"/>
+    <path class="ink" d="M445,204 L611,204"/>
+    <path class="ink" d="M535,204 L573,166 L607,204"/>
+    <!-- ships drawn up on the shore -->
+    <path class="thin" d="M452,200 q11,9 22,0 M463,200 L463,186 M463,186 L472,192 L463,195"/>
+    <path class="thin" d="M482,200 q11,9 22,0 M493,200 L493,186 M493,186 L502,192 L493,195"/>
+
+    <!-- ===== P3: x0 = 640 ===== -->
+    <rect class="sea" x="648" y="188" width="22" height="16"/>
+    <path class="thin" d="M650,193 q8,-4 16,0 M650,201 q8,-4 16,0"/>
+    <path class="ink" d="M670,204 L926,204"/>
+    <path class="ink" d="M850,204 L888,166 L922,204"/>
+    <!-- alluvial plain: field marks -->
+    <path class="thin" opacity=".55" d="M682,211 L702,211 M712,211 L732,211 M742,211 L762,211 M772,211 L792,211 M802,211 L822,211 M692,218 L712,218 M722,218 L742,218 M752,218 L772,218 M782,218 L802,218 M812,218 L832,218"/>
+  </g>
+
+  <!-- headings -->
+  <g class="ttl" text-anchor="middle">
+    <text x="155" y="104">~3000 BC</text>
+    <text x="470" y="104">~1200 BC</text>
+    <text x="785" y="104">Today</text>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="155" y="120">Troy I–II</text>
+    <text x="470" y="120">Troy VI–VIIa</text>
+    <text x="785" y="120">Hisarlık</text>
+  </g>
+
+  <!-- citadel labels -->
+  <g class="sm" text-anchor="middle">
+    <text x="256" y="158">citadel</text>
+    <text x="571" y="158">citadel</text>
+    <text x="886" y="158">citadel</text>
+  </g>
+
+  <!-- distance measures -->
+  <g class="thin">
+    <path marker-start="url(#ah)" marker-end="url(#ah)" d="M447,236 L533,236"/>
+    <path marker-start="url(#ah)" marker-end="url(#ah)" d="M672,236 L848,236"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="205" y="256">sea at the foot of the hill</text>
+    <text x="490" y="256">~2–3 km sheltered bay</text>
+    <text x="760" y="256">~5–6 km of dry fields filled with alluvium</text>
+  </g>
+  <text class="sm" x="490" y="274" text-anchor="middle">the Greeks drew their ships up here</text>
+</svg>

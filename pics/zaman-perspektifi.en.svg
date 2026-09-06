@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" width="940" height="430" role="img" aria-label="Bar chart comparing the distance each generation saw when it looked back: from a resident of Troy VIIa down to us">
+  <style>
+    :root { --ink:#33312e; --paper:#fffff8; --accent:#9c6b3f; }
+    @media (prefers-color-scheme: dark) { :root { --ink:#dddddd; --paper:#151515; --accent:#cf9d63; } }
+    .bar   { fill:var(--ink); fill-opacity:.14; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; }
+    .barac { fill:var(--accent); fill-opacity:.30; stroke:var(--accent); stroke-width:1.7; stroke-linejoin:round; }
+    .thin  { stroke:var(--ink); fill:none; stroke-width:1.1; stroke-linecap:round; }
+    text   { font-family:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif; fill:var(--ink); }
+    .who   { font-size:13.5px; }
+    .gap   { font-size:13px; opacity:.85; }
+    .sm    { font-size:11.5px; font-style:italic; opacity:.7; }
+    .ac    { fill:var(--accent); opacity:1; }
+  </style>
+  <defs>
+  </defs>
+
+  <text class="sm" x="225" y="42">each bar shows the distance that person saw when looking back →</text>
+
+  <g>
+    <rect class="bar"   x="225" y="70"  width="242" height="14" rx="2"/>
+    <rect class="bar"   x="225" y="115" width="67"  height="14" rx="2"/>
+    <rect class="bar"   x="225" y="160" width="117" height="14" rx="2"/>
+    <rect class="bar"   x="225" y="205" width="208" height="14" rx="2"/>
+    <rect class="bar"   x="225" y="250" width="356" height="14" rx="2"/>
+    <rect class="bar"   x="225" y="295" width="410" height="14" rx="2"/>
+    <rect class="barac" x="225" y="340" width="430" height="14" rx="2"/>
+    <path class="thin" d="M225,64 L225,362"/>
+  </g>
+
+  <g class="who" text-anchor="end">
+    <text x="210" y="81">a resident of Troy VIIa · 1200 BC</text>
+    <text x="210" y="126">Homer · 700 BC</text>
+    <text x="210" y="171">Alexander · 334 BC</text>
+    <text x="210" y="216">Julian · AD 354</text>
+    <text x="210" y="261">Mehmed II · 1462</text>
+    <text x="210" y="306">Schliemann · 1870</text>
+    <text x="210" y="351" class="ac">Us · 2026</text>
+  </g>
+
+  <g class="gap">
+    <text x="479" y="81">Troy I → 1,800 years back</text>
+    <text x="304" y="126">Trojan War → 500 years back</text>
+    <text x="354" y="171">Trojan War → 870 years back</text>
+    <text x="445" y="216">Trojan War → 1,550 years back</text>
+    <text x="593" y="261">Trojan War → 2,650 years back</text>
+    <text x="647" y="306">Trojan War → 3,050 years back</text>
+    <text x="667" y="351" class="ac">Trojan War → 3,200 years back</text>
+  </g>
+
+  <g class="thin">
+    <path d="M225,382 L655,382 M225,377 L225,387 M359,377 L359,387 M494,377 L494,387 M628,377 L628,387"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="225" y="402">0</text>
+    <text x="359" y="402">1,000 years</text>
+    <text x="494" y="402">2,000 years</text>
+    <text x="628" y="402">3,000 years</text>
+  </g>
+</svg>
