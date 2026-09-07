@@ -1,0 +1,212 @@
+{#
+  "Looking back from the same hill" — a small playable figure.
+
+  Drag the slider (or tap a name) to stand on Hisarlık in any year between
+  the founding of Troy I and today. The hill on the left grows layer by
+  layer beneath your feet; the bars on the right show how far back Troy I
+  and the Trojan War are from where you stand, next to our own distance to
+  the war for scale. Included from posts/zamanin-katmanlari{,.en}.md; the
+  copy switches on `resolvedLang`. Styles live in css/site.css (.zp-*).
+
+  Markdown parses the output, so the <figure> markup has no blank lines in
+  it — a blank line would end the HTML block and hand the rest to the
+  paragraph parser. The <script> is separated from it by a blank line on
+  purpose: that makes it its own HTML block, one that (per CommonMark) runs
+  to </script> and so may contain blank lines.
+#}
+{%- set en = resolvedLang == "en" -%}
+{%- set people = [
+  { year: -1200, tr: "Truva VIIa'da bir sakin", en: "a resident of Troy VIIa" },
+  { year: -700,  tr: "Homeros",                 en: "Homer" },
+  { year: -334,  tr: "İskender",                en: "Alexander" },
+  { year: 354,   tr: "Julianus",                en: "Julian" },
+  { year: 1462,  tr: "Fatih",                   en: "Mehmed II" },
+  { year: 1870,  tr: "Schliemann",              en: "Schliemann" },
+  { year: 2026,  tr: "Biz",                     en: "Us" }
+] -%}
+<figure class="fullwidth zp-demo" id="zp-demo" data-lang="{{ 'en' if en else 'tr' }}">
+<div class="zp-presets" role="group" aria-label="{{ 'Stand where they stood' if en else 'Onların durduğu yerde dur' }}">
+{%- for p in people %}
+<button type="button" data-year="{{ p.year }}">{{ p.en if en else p.tr }}</button>
+{%- endfor %}
+</div>
+<label class="zp-slider">
+<span class="zp-slider-text">{{ 'You are standing on the hill in' if en else 'Tepede durduğun yıl:' }} <strong class="zp-year" id="zp-year"></strong></span>
+<input type="range" id="zp-range" min="-3000" max="2026" step="1" value="-334" aria-label="{{ 'Year' if en else 'Yıl' }}">
+</label>
+<div class="zp-panels">
+<svg class="zp-hill" viewBox="0 0 200 250" aria-hidden="true">
+<g id="zp-layers"></g>
+<g id="zp-person"><circle cx="0" cy="-16" r="3.2"/><path d="M0,-12 L0,-3 M0,-3 L-3.5,4 M0,-3 L3.5,4 M-4,-8 L4,-8"/></g>
+<text id="zp-hill-label" class="zp-hill-label" x="100" y="243" text-anchor="middle"></text>
+</svg>
+<div class="zp-bars">
+<div class="zp-bar" id="zp-bar-troy1"><div class="zp-bar-label"></div><div class="zp-bar-track"><div class="zp-bar-fill"></div></div><div class="zp-bar-value"></div></div>
+<div class="zp-bar" id="zp-bar-war"><div class="zp-bar-label"></div><div class="zp-bar-track"><div class="zp-bar-fill"></div></div><div class="zp-bar-value"></div></div>
+<div class="zp-bar zp-bar-ref" id="zp-bar-us"><div class="zp-bar-label"></div><div class="zp-bar-track"><div class="zp-bar-fill"></div></div><div class="zp-bar-value"></div></div>
+<p class="zp-compare" id="zp-compare"></p>
+</div>
+</div>
+<figcaption>{% if en %}The distance everyone standing on the same hill saw when they looked back. Drag the slider, or tap a name, to stand where they stood. For Alexander the Trojan War was about 870 years behind him, one and a half times our own distance from Mehmed the Conqueror.{% else %}Aynı tepede duran herkesin geriye baktığında gördüğü mesafe. Sürgüyü kaydır ya da bir isme dokun, onların durduğu yerde dur. İskender için Truva Savaşı 870 yıl gerideydi; bizim Fatih'e olan uzaklığımızın bir buçuk katı.{% endif %}</figcaption>
+</figure>
+
+<script>
+(function () {
+  var root = document.getElementById("zp-demo");
+  if (!root) return;
+  var en = root.dataset.lang === "en";
+  var locale = en ? "en-US" : "tr-TR";
+
+  var TROY1 = -3000, WAR = -1200, NOW = 2026, FATIH = 1462;
+  var SPAN = NOW - TROY1;
+
+  // Each layer starts when the previous one ends; `end` closes the last.
+  // Heights are drawing units, not metres: the gap is thin on purpose.
+  var LAYERS = [
+    { name: "I",    start: -3000, h: 18, burnt: true },
+    { name: "II",   start: -2550, h: 18, burnt: true },
+    { name: "III",  start: -2300, h: 12 },
+    { name: "IV",   start: -2150, h: 12 },
+    { name: "V",    start: -1900, h: 12 },
+    { name: "VI",   start: -1750, h: 24 },
+    { name: "VIIa", start: -1300, h: 16, burnt: true },
+    { name: "VIIb", start: -1180, h: 14 },
+    { name: "",     start: -950,  h: 5,  gap: true },
+    { name: "VIII", start: -750,  h: 20 },
+    { name: "IX",   start: -85,   h: 22 },
+    { name: "X",    start: 500,   h: 16, end: 1300 }
+  ];
+
+  var people = {};
+  root.querySelectorAll(".zp-presets button").forEach(function (b) {
+    people[b.dataset.year] = b.textContent;
+  });
+
+  var t = en ? {
+    troy1: "Founding of Troy I", war: "The Trojan War", us: "Us, 2026 → the Trojan War",
+    back: function (n) { return "~" + fmt(n) + " years back"; },
+    ahead: function (n) { return "still " + fmt(n) + " years away"; },
+    field: "a field called Hisarlık",
+    hill: function (l) { return "standing on Troy " + l; },
+    ruin: "standing on the ruins",
+    compare: function (x, what, self) {
+      return (self ? "Our distance to " : "Looking back to ") + what + ": " + ratio(x) + " our own distance from Mehmed the Conqueror (" + (NOW - FATIH) + " years).";
+    },
+    troy1Short: "Troy I", warShort: "the war"
+  } : {
+    troy1: "Truva I'in kuruluşu", war: "Truva Savaşı", us: "Biz, 2026 → Truva Savaşı",
+    back: function (n) { return "~" + fmt(n) + " yıl geride"; },
+    ahead: function (n) { return "daha " + fmt(n) + " yıl var"; },
+    field: "Hisarlık denen bir tarla",
+    hill: function (l) { return "Truva " + l + "'nın üstünde"; },
+    ruin: "harabelerin üstünde",
+    compare: function (x, what, self) {
+      return what + (self ? " olan uzaklığımız, " : " olan uzaklığı, bizim ") + "Fatih'e olan uzaklığımızın (" + (NOW - FATIH) + " yıl) " + ratio(x) + ".";
+    },
+    troy1Short: "Truva I'e", warShort: "Savaşa"
+  };
+
+  function fmt(n) { return (Math.round(n / 10) * 10).toLocaleString(locale); }
+  function ratio(x) {
+    var r = x < 10 ? Math.round(x * 10) / 10 : Math.round(x);
+    var s = r.toLocaleString(locale);
+    return en ? s + "×" : s + " katı";
+  }
+  function fmtYear(y) {
+    var a = Math.abs(y).toLocaleString(locale);
+    if (y < 0) return en ? a + " BC" : "MÖ " + a;
+    if (y < 1000) return en ? "AD " + a : "MS " + a;
+    return String(y);
+  }
+
+  var range = document.getElementById("zp-range");
+  var yearEl = document.getElementById("zp-year");
+  var layersEl = document.getElementById("zp-layers");
+  var personEl = document.getElementById("zp-person");
+  var hillLabel = document.getElementById("zp-hill-label");
+  var compareEl = document.getElementById("zp-compare");
+  var svgNS = "http://www.w3.org/2000/svg";
+  var GROUND = 222, LEFT = 30, WIDTH = 140;
+
+  function bar(id, label, years, ahead) {
+    var el = document.getElementById(id);
+    el.querySelector(".zp-bar-label").textContent = label;
+    var fill = el.querySelector(".zp-bar-fill");
+    var v = el.querySelector(".zp-bar-value");
+    if (ahead) {
+      fill.style.width = "0%";
+      v.textContent = t.ahead(years);
+      el.classList.add("zp-bar-ahead");
+    } else {
+      fill.style.width = (100 * years / SPAN).toFixed(2) + "%";
+      v.textContent = t.back(years);
+      el.classList.remove("zp-bar-ahead");
+    }
+  }
+
+  function drawHill(year) {
+    while (layersEl.firstChild) layersEl.removeChild(layersEl.firstChild);
+    var y = GROUND, top = null;
+    for (var i = 0; i < LAYERS.length; i++) {
+      var L = LAYERS[i];
+      if (year < L.start) break;
+      var end = L.end !== undefined ? L.end : LAYERS[i + 1].start;
+      var frac = Math.min(1, (year - L.start) / (end - L.start));
+      var h = L.h * frac;
+      if (h <= 0) continue;
+      var r = document.createElementNS(svgNS, "rect");
+      r.setAttribute("x", LEFT); r.setAttribute("y", (y - h).toFixed(2));
+      r.setAttribute("width", WIDTH); r.setAttribute("height", h.toFixed(2));
+      r.setAttribute("class", "zp-layer" + (L.gap ? " zp-layer-gap" : i % 2 ? " zp-layer-odd" : ""));
+      layersEl.appendChild(r);
+      if (L.burnt && frac >= 1) {
+        var burn = document.createElementNS(svgNS, "rect");
+        burn.setAttribute("x", LEFT); burn.setAttribute("y", (y - h).toFixed(2));
+        burn.setAttribute("width", WIDTH); burn.setAttribute("height", "1.6");
+        burn.setAttribute("class", "zp-burn");
+        layersEl.appendChild(burn);
+      }
+      if (L.name && h >= 10) {
+        var tx = document.createElementNS(svgNS, "text");
+        tx.setAttribute("x", LEFT + 6); tx.setAttribute("y", (y - h / 2 + 3.5).toFixed(2));
+        tx.setAttribute("class", "zp-layer-name");
+        tx.textContent = L.name;
+        layersEl.appendChild(tx);
+      }
+      y -= h;
+      if (year < end) top = L;
+    }
+    var ground = document.createElementNS(svgNS, "path");
+    ground.setAttribute("d", "M8," + GROUND + " H192");
+    ground.setAttribute("class", "zp-ground");
+    layersEl.appendChild(ground);
+    personEl.setAttribute("transform", "translate(" + (LEFT + WIDTH / 2) + "," + y.toFixed(2) + ")");
+    var last = LAYERS[LAYERS.length - 1];
+    hillLabel.textContent = year >= last.end ? t.field : top ? t.hill(top.name) : t.ruin;
+  }
+
+  function update() {
+    var year = Number(range.value);
+    var name = people[String(year)];
+    yearEl.textContent = fmtYear(year) + (name ? " · " + name : "");
+    root.querySelectorAll(".zp-presets button").forEach(function (b) {
+      b.classList.toggle("zp-active", Number(b.dataset.year) === year);
+    });
+    drawHill(year);
+    bar("zp-bar-troy1", t.troy1, Math.abs(year - TROY1), year < TROY1);
+    bar("zp-bar-war", t.war, Math.abs(year - WAR), year < WAR);
+    bar("zp-bar-us", t.us, NOW - WAR, false);
+    if (year >= WAR) {
+      compareEl.textContent = t.compare((year - WAR) / (NOW - FATIH), t.warShort, year === NOW);
+    } else {
+      compareEl.textContent = t.compare((year - TROY1) / (NOW - FATIH), t.troy1Short, false);
+    }
+  }
+
+  range.addEventListener("input", update);
+  root.querySelectorAll(".zp-presets button").forEach(function (b) {
+    b.addEventListener("click", function () { range.value = b.dataset.year; update(); });
+  });
+  update();
+})();
+</script>

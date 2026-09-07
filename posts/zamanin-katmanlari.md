@@ -19,21 +19,21 @@ categories: ["Tarih"]
 
 *Odyssey* ve *İlyada* destanları için yapılan en popüler filmler, destanlar yazıya döküldükten yaklaşık 2750 sene sonra 2004'te Wolfgang Petersen'in *Troy*'u ve 2026'da Christopher Nolan'ın *Odyssey*'i. [İlyada Truva savaşının son 50 gününü anlatıyor ve Hector'un cenazesiyle bitiyor. Film biraz Odyssey ile kesişiyor.]{.marginnote} Film olarak *Troy*'u çok severim. Bence destansı bir hollywood blockbuster filmi için çok başarılıydı. Şimdi baktığımda kendi yurtiçinde yapım maliyetini çıkaramamış gişede, fakat dünya genelinde 3 kat hasılat yapmış.^[**Kaynak:** *Troy* (2004) bütçe ve hasılat rakamları: Box Office Mojo, film künyesi. Yaklaşık 175 milyon $ bütçe, 133 milyon $ ABD-Kanada, 497 milyon $ dünya geneli.] Truva savaşı denince benim de aklıma bu filmden sahneler gelir. Fakat son birkaç seneye kadar bu konuyla ilgili aklımda tarihi gerçeklik açısından tek şey: "Antik çağda Çanakkale'de geçmiş bir savaş, Homeros yazmış destan olmuş." Ama bu konuda kaldırdığın her taşın altından başka bir araştırma konusu çıkıyor: destanın günümüze ulaşma hikayesinden, höyük denen şeylerin oluşumuna, antik dediğimiz şeylerin geçmiş perspektifine, yeryüzündeki jeolojik değişimlerin insanlık tarihi ölçeğindeki yerine kadar.
 
-Truva savaşı Anadolu'nun tarihinde de önemli yer tutuyor. Geçmişte "Truva'nın intikamı alındı" sözünün atfedildiği birkaç olay geçiyor:
+Truva savaşı Anadolu'nun tarihinde de önemli yer tutuyor. Geçmişte "Truva'nın intikamı alındı" sözünün atfedildiği birçok olay geçiyor çünkü o bölgede geçen savaşlar ve taraflar yüzyıllar geçse de birbirine benzerlikler gösteriyor.:
 
-### 1. Fatih Sultan Mehmed (1462): kaynaklı olan tek örnek
+### 1. Fatih Sultan Mehmed (1462)
 
-En güçlü ve gerçekten belgeli örnek bu. Fatih Sultan Mehmed, 1462'de Midilli seferi sırasında Truva (İlion) harabelerini ziyaret ediyor, Akhilleus ve Aias'ın mezarlarını soruyor, kahramanları övüyor ve şu mealde konuşuyor:
+En güçlü ve gerçekten belgeli örnek bu. Fatih Sultan Mehmed, 1462'de Midilli seferi sırasında Truva (İlion) harabelerini ziyaret ediyor, Akhilleus ve Aias'ın mezarlarını soruyor, kahramanları övüyor ve şunu söylediği aktarılıyor:
 
-> "Bu şehri ve halkını öç almak, bunca zaman sonra bana nasip oldu. Burayı yıkanlar Yunanlılar, Makedonyalılar, Teselyalılar ve Peloponnesoslulardı; onların torunları, o zaman ve sonraki zamanlarda biz Asyalılara yaptıkları haksızlığın cezasını şimdi benim elimle ödediler."^[**Kaynak:** İmroz'lu Mihail Kritovulos, *Tarih-i Sultan Mehmed Han-ı Sânî*, IV. kitap. Yunanca metin: *Critobuli Imbriotae Historiae*, ed. Diether Roderich Reinsch, Corpus Fontium Historiae Byzantinae 22 (Berlin: De Gruyter, 1983); İngilizcesi: *History of Mehmed the Conqueror*, çev. Charles T. Riggs (Princeton: Princeton University Press, 1954). Kritovulos Rum kökenli bir Osmanlı bürokratıydı ve eserini doğrudan Fatih'e ithaf etmişti. Yani saraya yakın, çağdaş bir kaynak. Fatih'in aynı çerçeveyi 1453 İstanbul'un fethi için de kurduğu genellikle bu pasajdan yola çıkarak söylenir.]
+> "Bu şehri ve halkını öç almak, bunca zaman sonra bana nasip oldu. Burayı yıkanlar Yunanlılar, Makedonyalılar, Teselyalılar ve Peloponnesoslulardı; onların torunları, o zaman ve sonraki zamanlarda biz Asyalılara yaptıkları haksızlığın cezasını şimdi benim elimle ödediler."^[**Kaynak:** İmroz'lu Mihail Kritovulos, *Tarih-i Sultan Mehmed Han-ı Sânî*, IV. kitap. Yunanca metin: *Critobuli Imbriotae Historiae*, Kritovulos Rum kökenli bir Osmanlı bürokratıydı ve eserini doğrudan Fatih'e ithaf etmişti. Yani saraya yakın, çağdaş bir kaynak. Fatih'in aynı çerçeveyi 1453 İstanbul'un fethi için de kurduğu genellikle bu pasajdan yola çıkarak söylenir. Ama Kritovlos'un biraz yalakalık yapmış olma ihtimaline karşı bu da çok güvenilir olmayabilir.]
 
-### 2. Atatürk'e atfedilen söz: çok yaygın, ama kaynaksız
+### 2. Atatürk'e atfedilen söz
 
-1922 Büyük Taarruz / İzmir'e giriş sonrası Atatürk'ün **"Truvalıların intikamını aldık"** dediği anlatılır. Ancak bunun birincil kaynağı gösterilemiyor. *Nutuk*'ta ya da *Atatürk'ün Söylev ve Demeçleri* derlemelerinde böyle bir ifade yer almıyor; anlatı genelde ikinci-üçüncü elden aktarımlarla, kaynak verilmeden tekrarlanıyor.^[**Kaynak taraması:** Mustafa Kemal Atatürk, *Nutuk* (Ankara, 1927) ve *Atatürk'ün Söylev ve Demeçleri*, 3 cilt (Ankara: Atatürk Araştırma Merkezi) derlemesi. Söz bu iki temel külliyatta geçmiyor; birincil bir kayda dayandıran bir yayın da bugüne kadar gösterilebilmiş değil.] 
+1922 Büyük Taarruz / İzmir'e giriş sonrası Atatürk'ün **"Truvalıların intikamını aldık"** dediği anlatılır. Ancak bunun birincil kaynağı gösterilemiyor. *Nutuk*'ta ya da *Atatürk'ün Söylev ve Demeçleri* derlemelerinde böyle bir ifade yer almıyor; anlatı genelde ikinci-üçüncü elden aktarımlarla, kaynak verilmeden tekrarlanıyor.
 
 # Destan ve Şehir
 
-Truva savaşı iki açıdan çok ilginç. Biri truva savaşını ve sonrası için yazılan bu destanların günümüze ulaşırken izlediği yol. İkincisi ve bu yazıda değinmeye çalışacağım zaman ölçeği konusunun ana örneği Truva şehrinin kendi tarihi.
+Truva savaşı iki açıdan çok ilginç. Biri truva savaşını ve sonrası için yazılan bu destanların günümüze ulaşırken izlediği yol. İkincisi ve bu yazıda değinmeye çalışacağım zaman ölçeğinin etkileyici bir örneği olarak Truva şehrinin kendi tarihi.
 
 ## Destanın Günümüze Ulaşması 
 İlk ilginç nokta. Savaş Bronz Çağı'nın sonuna doğru yaşanıyor, yaklaşık M.Ö. 1150-1200 civarında gerçekleşiyor. Homeros^[Bu arada Homeros da bir kişi mi yoksa bir grup ozan mı belli değil.] usta ozan olarak bunu dikte ederek yazıya döktürdüğünde ise yıl M.Ö 700 civarı. Yani arada geçen 450 sene civarı bu hikaye tamamen sözel olarak ozanlarla nesilden nesile aktarılıyor. Homeros zamanı yazıya dökülmesinin sebebi ise o dönemde Fenike alfabesinin Yunancaya uyarlanması. Fenike alfabesi Akdeniz'de MÖ 1000'lerden beri yayılıyordu; Yunanlar MÖ 800 civarında ona ünlü harfleri ekleyip kendi alfabelerini kurunca, destanı bari kaydedelim diye kullanmışlar. Yazılırken truva savaşının üstünden 450 sene geçmiş. Neredeyse 1600'lerde yaşanmış bir olayın şimdi ilk kez yazılması gibi.^[**Kaynak:** Sözlü aktarım tekniği üzerine Milman Parry, *The Making of Homeric Verse*, ed. Adam Parry (Oxford: Clarendon Press, 1971) ve Albert B. Lord, *The Singer of Tales* (Cambridge, MA: Harvard University Press, 1960). Alfabenin gelişi ve destanın yazıya geçişi için Barry B. Powell, *Homer and the Origin of the Greek Alphabet* (Cambridge: Cambridge University Press, 1991); tarihlendirme tartışması için M. L. West, "The Date of the Iliad," *Museum Helveticum* 52 (1995): 203–219.] Homeros için Akhilleus 15 nesil öncesiydi. Düşünün, Antik Yunan, Socrates, Plato, Aristo dönemi de, Homeros'un bunu yazıya dökmesinden 400 sene sonra yaşanacak. Bu ünlü ve bize göre antik dönem filozofları da İlyada'ya aynı bizim baktığımız yerden bakacaklar: çok eski tarihten bir destan. Aristo, 400 sene sonra *Poetika*'da Homeros'un tüm savaşı anlatmak yerine sadece belli bir bölümünü seçmesini övecek.^[**Kaynak:** Aristoteles, *Poetika* 23, 1459a30–37.] 
@@ -76,9 +76,9 @@ Tarihte genel olarak Truva savaşının gerçekten yaşandığı ama mitolojik �
 
 ![Schliemann'ın hendeği bugün hâlâ açık. Kesilmiş yüzeylerdeki levhalar hangi duvarın hangi şehre ait olduğunu gösteriyor: sol üstte Truva IX, aşağı indikçe daha eski şehirlerin kalıntıları bulunmakta.](/pics/troya-schliemann-hendegi.jpg){.fullwidth}
 
-Schliemann'ın kazdığı o tepede[ **Höyük**: her biri bir öncekinin molozu üzerine kurulmuş şehirlerden oluşan bir "pankek yığını". Höyük oluşumunun jeoarkeolojisi için: Arlene Miller Rosen, *Cities of Clay: The Geoarchaeology of Tells* (Chicago: University of Chicago Press, 1986).]{.marginnote} birbirinin üstüne yığılmış dokuz ana şehir, Roma'dan sonraki Bizans dönemi için de kazı ekibinin gayrıresmî olarak **Troia X** dediği katman var.^[**Kaynak (aşağıdaki tablo):** Katman şeması ve tarihler için Carl W. Blegen v.d., *Troy: Excavations Conducted by the University of Cincinnati, 1932–1938*, 4 cilt (Princeton: Princeton University Press, 1950–1958) ve Manfred Korfmann yönetimindeki kazıların yıllık raporları, *Studia Troica* 1–15 (Mainz: Philipp von Zabern, 1991–2005). Toplu değerlendirme: Ernst Pernicka, C. Brian Rose ve Peter Jablonka (ed.), *Troia 1987–2012: Grabungen und Forschungen* (Bonn: Habelt, 2014). Truva VIII–X (Hellenistik, Roma, Bizans katmanları) için C. Brian Rose, *The Archaeology of Greek and Roman Troy* (Cambridge: Cambridge University Press, 2014).]
+Schliemann'ın kazdığı o tepede[ **Höyük**: her biri bir öncekinin molozu üzerine kurulmuş şehirlerden oluşan bir yığın. Höyük oluşumunun jeoarkeolojisi için: Arlene Miller Rosen, *Cities of Clay: The Geoarchaeology of Tells* (Chicago: University of Chicago Press, 1986).]{.marginnote} birbirinin üstüne yığılmış dokuz ana şehir, Roma'dan sonraki Bizans dönemi için de kazı ekibinin gayrıresmî olarak **Troia X** dediği katman var.^[**Kaynak (aşağıdaki tablo):** Katman şeması ve tarihler için Carl W. Blegen v.d., *Troy: Excavations Conducted by the University of Cincinnati, 1932–1938*, 4 cilt (Princeton: Princeton University Press, 1950–1958) ve Manfred Korfmann yönetimindeki kazıların yıllık raporları, *Studia Troica* 1–15 (Mainz: Philipp von Zabern, 1991–2005). Toplu değerlendirme: Ernst Pernicka, C. Brian Rose ve Peter Jablonka (ed.), *Troia 1987–2012: Grabungen und Forschungen* (Bonn: Habelt, 2014). Truva VIII–X (Hellenistik, Roma, Bizans katmanları) için C. Brian Rose, *The Archaeology of Greek and Roman Troy* (Cambridge: Cambridge University Press, 2014).]
 
-![Hisarlık höyüğünün kesiti. Üstteki ince katmanlar en yeni olanlar; Schliemann aradığı şehri en dipte sanıp ortadan aşağı indi ve tam da onun içinden geçti.](/pics/troya-hoyuk-kesiti.svg){.fullwidth}
+![Hisarlık höyüğünün kesiti. Üstteki ince katmanlar en yeni olanlar; Schliemann aradığı şehri en dipte sanıp ortadan aşağı kazd ve tam da ortasından aşağı yarıp geçti.](/pics/troya-hoyuk-kesiti.svg){.fullwidth}
 
 {cols: 16% 22% 62%}
 | Katman | Tarih | Ne oldu |
@@ -114,7 +114,7 @@ Yani Truva "kayıp şehir" değildi. Homeros'un savaşından sonra 2500 yıl dah
 
 Yani Truva, 15. yüzyılda "kayıp şehir" değildi. Yeri bilinen, üstünde taşı görünen, adı Homeros'tan beri kesintisiz taşınan bir harabeydi. Truva VIIa'da yaşayan biri için Truva I zaten *1800* yıllık bir antik çağdı; İskender için Truva VIIa 1000 yıl uzaktaydı; Julianus için İskender'in ziyareti 700 yıl önceydi. Aynı tepede duran her nesil, kendinden öncekilere bizim onların hepsine baktığımız gibi baktı.
 
-![Aynı tepede duran herkesin geriye baktığında gördüğü mesafe. İskender için Truva Savaşı 870 yıl gerideydi. Bizim Fatih'e olan uzaklığımızın bir buçuk katı.](/pics/zaman-perspektifi.svg){.fullwidth}
+{% include "zaman-perspektifi-demo.njk" %}
 
 ## İlion İsmi Uzun Zamandır Biliniyorsa Neden Truvayla İlişkisi Zor Bulundu?
 Yüzyıllar boyunca, harabeler kendi adını taşıyan bir şehrin altında durdu. Görülmemesinin ise birkaç sebebi var:
@@ -143,11 +143,11 @@ Truvayı ziyaret ettiğinizde düşünmesi en sıradışı şey, orada esen rüz
 
 Ama burada bir gariplik var. İlyada'ya göre gemilerden surlar yürüme mesafesinde sayılır. Troy filminde de çok yakında olmasa da yürüme mesafesi gibi gösterilmişti. Şehrin varlık sebebi rüzgâr ve liman idiyse, rüzgâr hâlâ orada da liman nerede? Hisarlık'ta durup baktığınızda deniz falan görmüyorsunuz; düz tarlalar görüyorsunuz ve kıyı 5-6 kilometre ötede.
 
-![*Troy* (2004): surlardan bakınca deniz ve kıyıya çekilmiş Yunan gemileri. Film bu mesafeyi doğru kuruyor. Ama bugün aynı yerden bakınca sadece tarla var.](/pics/troy-2004-surlardan-deniz.jpg){.fullwidth}
+![*Troy* (2004): surlardan bakınca deniz ve kıyıya çekilmiş Yunan gemileri. Film bu mesafeyi benzetiyor. Gerçekte daha yakın olabilir. Ama bugün aynı yerden bakınca sadece tarla var.](/pics/troy-2004-surlardan-deniz.jpg){.fullwidth}
 
 <figure class="fullwidth">
 <video src="/pics/troy-2004-ovada-yuruyus.mp4" autoplay loop muted playsinline preload="metadata"></video>
-<figcaption>Yunan ordusu kumsaldaki kamptan kalkıp ovayı geçiyor. Filmin kurduğu mesafe bu: gemiler arkada, şehir karşıda, arası yürünecek kadar. Bugün o kumsalın yerinde Karamenderes'in getirdiği alüvyon var.</figcaption>
+<figcaption>Yunan ordusu kumsaldaki kamptan kalkıp ovayı geçiyor. Filmde de yürünecek kadar bir mesafe olduğu görülüyor ama yine de bence olması gerektiği kadar yakın değil. Bugün o kumsalın yerinde Karamenderes'in getirdiği alüvyon dolgusu var.</figcaption>
 </figure>
 
 ![Höyükten ovaya bakış. Gemilerin çekildiği koy bu tarlaların altında.](/pics/troya-ovasi.jpg){.fullwidth}

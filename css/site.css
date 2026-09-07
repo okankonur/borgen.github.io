@@ -217,3 +217,307 @@ figure.fullwidth video {
     width: 100%;
   }
 }
+
+/* Note toggles on a phone. On a wide screen the sidenotes and margin notes
+   sit in the margin and the number / ⊕ mark next to the text is just a
+   reference. Under 760px tufte.css hides the notes and turns those marks into
+   tap targets that reveal them, but it leaves them looking exactly as before:
+   a bare superscript digit and a thin ⊕ in body colour. Nothing says "tap
+   me". Below, the marks get the site's accent colour, a hairline pill, and
+   enough padding to be a real finger target, and fill in while the note is
+   open. `:has()` is what lets the label see the state of the checkbox that
+   follows it — where unsupported, the mark simply stays outlined. */
+@media (max-width: 760px) {
+  label.margin-toggle {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  label.sidenote-number:after {
+    color: #9c6b3f;
+    font-size: 0.85rem;
+    font-weight: bold;
+    font-variant-numeric: lining-nums;
+    padding: 0.05em 0.4em;
+    margin-left: 0.1em;
+    border: 1px solid #9c6b3f;
+    border-radius: 0.8em;
+    top: -0.45rem;
+  }
+
+  label.margin-toggle:not(.sidenote-number) {
+    color: #9c6b3f;
+    font-size: 1em;
+    padding: 0.05em 0.25em;
+    margin: 0 0.1em;
+    border: 1px solid #9c6b3f;
+    border-radius: 0.8em;
+    line-height: 1;
+    vertical-align: 0.1em;
+  }
+
+  label.sidenote-number:has(+ input:checked):after,
+  label.margin-toggle:not(.sidenote-number):has(+ input:checked) {
+    color: #fffff8;
+    background-color: #9c6b3f;
+  }
+
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    border-left: 2px solid #9c6b3f;
+    padding-left: 0.6rem;
+  }
+}
+
+@media (max-width: 760px) and (prefers-color-scheme: dark) {
+  label.sidenote-number:after,
+  label.margin-toggle:not(.sidenote-number) {
+    color: #cf9d63;
+    border-color: #cf9d63;
+  }
+  label.sidenote-number:has(+ input:checked):after,
+  label.margin-toggle:not(.sidenote-number):has(+ input:checked) {
+    color: #151515;
+    background-color: #cf9d63;
+  }
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    border-left-color: #cf9d63;
+  }
+}
+
+/* "Looking back from the same hill" — the playable figure in the Zamanın
+   Katmanları post (_includes/zaman-perspektifi-demo.njk). A row of names, a
+   year slider, then the hill cross-section on the left and three distance
+   bars on the right. Same ink/paper/accent as the SVG diagrams. */
+.zp-demo {
+  font-family: ETbb, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --zp-ink: #111;
+  --zp-paper: #fffff8;
+  --zp-accent: #9c6b3f;
+  --zp-line: #bbb;
+  --zp-burn: #8a2f1c;
+}
+
+.zp-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.zp-presets button {
+  font: inherit;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--zp-ink);
+  background: transparent;
+  border: 1px solid var(--zp-line);
+  border-radius: 1em;
+  padding: 0.15em 0.75em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.zp-presets button:hover {
+  border-color: var(--zp-accent);
+}
+
+.zp-presets button.zp-active {
+  color: var(--zp-paper);
+  background: var(--zp-accent);
+  border-color: var(--zp-accent);
+  font-style: normal;
+}
+
+.zp-slider {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.zp-slider-text {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.zp-year {
+  color: var(--zp-accent);
+  font-variant-numeric: lining-nums;
+}
+
+.zp-slider input[type="range"] {
+  width: 100%;
+  margin: 0;
+  accent-color: var(--zp-accent);
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+.zp-panels {
+  display: grid;
+  grid-template-columns: minmax(8rem, 12rem) 1fr;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.zp-hill {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.zp-layer {
+  fill: var(--zp-ink);
+  fill-opacity: 0.12;
+  stroke: var(--zp-ink);
+  stroke-width: 0.8;
+}
+
+.zp-layer-odd {
+  fill-opacity: 0.22;
+}
+
+.zp-layer-gap {
+  fill-opacity: 0.04;
+  stroke-dasharray: 2 2;
+}
+
+.zp-burn {
+  fill: var(--zp-burn);
+  fill-opacity: 0.8;
+  stroke: none;
+}
+
+.zp-layer-name {
+  font-size: 8.5px;
+  font-style: italic;
+  fill: var(--zp-ink);
+  opacity: 0.8;
+}
+
+.zp-ground {
+  stroke: var(--zp-ink);
+  stroke-width: 1.2;
+  fill: none;
+}
+
+#zp-person {
+  fill: none;
+  stroke: var(--zp-accent);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.15s ease-out;
+}
+
+#zp-person circle {
+  fill: var(--zp-accent);
+}
+
+.zp-hill-label {
+  font-size: 10px;
+  font-style: italic;
+  fill: var(--zp-ink);
+  opacity: 0.75;
+}
+
+.zp-bars {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.zp-bar {
+  margin-bottom: 0.7rem;
+}
+
+.zp-bar-label {
+  font-style: italic;
+}
+
+.zp-bar-track {
+  height: 0.85rem;
+  border-left: 1px solid var(--zp-ink);
+  margin: 0.15rem 0;
+}
+
+.zp-bar-fill {
+  height: 100%;
+  width: 0;
+  background: var(--zp-ink);
+  opacity: 0.18;
+  border: 1px solid var(--zp-ink);
+  border-left: none;
+  box-sizing: border-box;
+  transition: width 0.15s ease-out;
+}
+
+.zp-bar-ref .zp-bar-fill {
+  background: var(--zp-accent);
+  border-color: var(--zp-accent);
+  opacity: 0.45;
+}
+
+.zp-bar-ref .zp-bar-label,
+.zp-bar-ref .zp-bar-value {
+  color: var(--zp-accent);
+}
+
+.zp-bar-value {
+  font-variant-numeric: lining-nums;
+}
+
+.zp-bar-ahead .zp-bar-value {
+  opacity: 0.6;
+}
+
+.zp-compare {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: auto;
+  margin: 0.6rem 0 0;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--zp-line);
+}
+
+.zp-demo figcaption {
+  margin-top: 1.2rem;
+}
+
+@media (max-width: 760px) {
+  .zp-demo figcaption {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .zp-panels {
+    grid-template-columns: 7rem 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+  .zp-bars {
+    font-size: 0.9rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .zp-demo {
+    --zp-ink: #ddd;
+    --zp-paper: #151515;
+    --zp-accent: #cf9d63;
+    --zp-line: #555;
+    --zp-burn: #c9553a;
+  }
+  .zp-layer {
+    fill-opacity: 0.18;
+  }
+  .zp-layer-odd {
+    fill-opacity: 0.3;
+  }
+  .zp-bar-fill {
+    opacity: 0.28;
+  }
+}

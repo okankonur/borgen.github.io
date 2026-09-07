@@ -114,7 +114,7 @@ So Troy was not a "lost city." It lived on for another 2,500 years after Homer's
 
 So in the 15th century Troy was not a "lost city." It was a ruin whose location was known, whose stone was visible above ground, whose name had been carried unbroken since Homer. For someone living in Troy VIIa, Troy I was already an antiquity *1,800* years old; for Alexander, Troy VIIa was 1,000 years away; for Julian, Alexander's visit was 700 years earlier. Every generation standing on that same hill looked back at the ones before it the way we look back at all of them.
 
-![The distance everyone standing on the same hill saw when they looked back. For Alexander the Trojan War was 870 years behind him. That is one and a half times our own distance from Mehmed the Conqueror.](/pics/zaman-perspektifi.en.svg){.fullwidth}
+{% include "zaman-perspektifi-demo.njk" %}
 
 ## If the Name Ilion Was Known All Along, Why Was Its Link to Troy So Hard to Find?
 
