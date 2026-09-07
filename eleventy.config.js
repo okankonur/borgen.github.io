@@ -49,8 +49,21 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addFilter("dateIso", (d) => new Date(d).toISOString().slice(0, 10));
-  eleventyConfig.addFilter("dateHuman", (d) =>
-    new Date(d).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+  // A post's date is written in the post's own language; everywhere else
+  // (the homepage index) the filter is called without a language and stays
+  // en-US, so that list reads as one column instead of a mix.
+  //
+  // Front-matter dates are date-only, which YAML resolves to midnight UTC, so
+  // format in UTC as well: the default would use the build machine's zone and
+  // render the previous day anywhere west of UTC.
+  const DATE_LOCALES = { tr: "tr-TR", en: "en-US" };
+  eleventyConfig.addFilter("dateHuman", (d, lang) =>
+    new Date(d).toLocaleDateString(DATE_LOCALES[lang] || "en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      timeZone: "UTC",
+    })
   );
 
   // Every post, in every language — used to find a post's translation.

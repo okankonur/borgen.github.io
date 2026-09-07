@@ -5,7 +5,11 @@ layout: base.njk
   <h1>{{ title }}</h1>
   {% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
   <p class="post-meta">
-    {{ date | dateHuman }}
+    {# Front-matter `lang`, not `resolvedLang`: a post that declares no
+       language falls back to the site default (tr) for its URL and markup,
+       but several such posts are written in English, so the date stays
+       en-US unless the post says outright which language it is in. #}
+    {{ date | dateHuman(lang) }}
     {% if categories %}&middot; {{ categories | join(", ") }}{% endif %}
     {% if draft %}<span class="draft-tag">Draft</span>{% endif %}
   </p>
